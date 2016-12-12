@@ -31,3 +31,5 @@ C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitor
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Monitoreo Carteles.pdb
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Npgsql.dll
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Npgsql.xml
+C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Login.resources
+C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Resource1.resources
