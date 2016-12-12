@@ -75,7 +75,7 @@ namespace Monitoreo_Carteles
                 {
                     conexion = new NpgsqlConnection(cadena);
                     conexion.Open();
-                    MessageBox.Show("Conexion a la base de datos: OK - ", current.ToString());
+                    MessageBox.Show("Conexion a la base de datos: OK", current.ToString());
                     estado = true;
                     using (var cmd = new NpgsqlCommand())
                     {
