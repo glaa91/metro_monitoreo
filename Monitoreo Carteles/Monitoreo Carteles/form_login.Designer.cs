@@ -1,6 +1,6 @@
 ﻿namespace Monitoreo_Carteles
 {
-    partial class Login
+    partial class Form_login
     {
         /// <summary>
         /// Required designer variable.
@@ -53,16 +53,18 @@
             // 
             // textBox_password
             // 
+            this.textBox_password.AcceptsReturn = true;
             this.textBox_password.Location = new System.Drawing.Point(228, 284);
             this.textBox_password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox_password.Name = "textBox_password";
-            this.textBox_password.Size = new System.Drawing.Size(148, 26);
+            this.textBox_password.Size = new System.Drawing.Size(173, 26);
             this.textBox_password.TabIndex = 5;
+            this.textBox_password.TextChanged += new System.EventHandler(this.textBox_password_TextChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(96, 288);
+            this.label2.Location = new System.Drawing.Point(73, 290);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 20);
@@ -72,7 +74,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(96, 248);
+            this.label1.Location = new System.Drawing.Point(73, 250);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 20);
@@ -84,13 +86,13 @@
             this.textBox_username.Location = new System.Drawing.Point(228, 244);
             this.textBox_username.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox_username.Name = "textBox_username";
-            this.textBox_username.Size = new System.Drawing.Size(148, 26);
+            this.textBox_username.Size = new System.Drawing.Size(173, 26);
             this.textBox_username.TabIndex = 2;
             this.textBox_username.TextChanged += new System.EventHandler(this.textBox_username_TextChanged);
             // 
             // button_login
             // 
-            this.button_login.Location = new System.Drawing.Point(140, 351);
+            this.button_login.Location = new System.Drawing.Point(143, 342);
             this.button_login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_login.Name = "button_login";
             this.button_login.Size = new System.Drawing.Size(152, 65);
@@ -115,6 +117,7 @@
             this.groupBox1.Size = new System.Drawing.Size(483, 489);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
             // 
             // pictureBox1
             // 
@@ -128,13 +131,13 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // Login
+            // Form_login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(518, 517);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Login";
+            this.Name = "Form_login";
             this.Text = "Login";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

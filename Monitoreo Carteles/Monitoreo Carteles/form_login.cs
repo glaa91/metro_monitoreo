@@ -13,9 +13,21 @@ using System.Timers;
 using System.Threading;
 using System.Globalization;
 
+/* 
+ * DEBUG: Detailed information, typically of interest only when diagnosing problems.
+ *      Log("DEBUG", "") --> YELLOW
+ * INFO: Confirmation that things are working as expected.
+ *      Log("INFO", "")
+ * WARNING: An indication that something unexpected happened, or indicative of some problem in the near future (e.g. ‘disk space low’). The software is still working as expected.
+ *      Log("WARNING", "")
+ * ERROR: Due to a more serious problem, the software has not been able to perform some function.
+ *      Log("ERROR", "")
+ * CRITICAL: A serious error, indicating that the program itself may be unable to continue running.
+ *      Log("CRITICAL", "")
+*/
 namespace Monitoreo_Carteles
 {
-    public partial class Login : Form
+    public partial class Form_login : Form
     {
         private static System.Timers.Timer aTimer;
         private static List<Usuario> usuarios_l = new List<Usuario>();
@@ -24,12 +36,14 @@ namespace Monitoreo_Carteles
         //private static RichTextBox richTextBox;
         //private TabControl tabControl1;
         //private string tabMonitor_s = "MONITOR", tabDebug_s = "DEBUG", tabConfig_s = "CONFIGURACION";
-        private static Boolean coneccionBaseDatos_b = false;
+        public static Boolean coneccionBaseDatos_b = false, monitor_b = false;
+        public static int timeRefresh_i = 60000;
 
-        public Login()
+        public Form_login()
         {
             InitializeComponent();
-            SetTimer();
+            this.textBox_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
+            SetTimer(timeRefresh_i, true);
             label_estadoConexion = new Label();
             
             //levanto por primera vez todo
@@ -41,14 +55,22 @@ namespace Monitoreo_Carteles
                 label_estadoConexion.Text = "ERROR al conectarse a la base de datos...";
 
             }*/
-            Log("DEBUG", "HOLA");
+            //Log("DEBUG", "HOLA");
             //label_estadoConexion.Text = "Coneccion EXITOSA a la base de datos...";
         }
 
-        private static void SetTimer()
+        public static void SetTimer(int time, Boolean fisrt)
         {
-            // Create a timer with a 60 second interval.
-            aTimer = new System.Timers.Timer(60000);
+            if (fisrt)
+            {
+                aTimer = new System.Timers.Timer(time);
+            }
+            else
+            {
+                aTimer.Stop();
+                aTimer.Dispose();
+                aTimer = new System.Timers.Timer(time);
+            }
             // Hook up the Elapsed event for the timer. 
             aTimer.Elapsed += OnTimedEvent;
             aTimer.AutoReset = true;
@@ -64,7 +86,6 @@ namespace Monitoreo_Carteles
         {
             Boolean estado = false;
             DateTime current = DateTime.Now;
-            //Console.WriteLine("The Elapsed event was raised at {0:HH:mm:ss.fff}", e.SignalTime);
             NpgsqlConnection conexion = new NpgsqlConnection();
             //casa: 190.16.226.7
             //metrovias: 172.30.108.200
@@ -75,8 +96,11 @@ namespace Monitoreo_Carteles
                 {
                     conexion = new NpgsqlConnection(cadena);
                     conexion.Open();
-                    MessageBox.Show("Conexion a la base de datos: OK", current.ToString());
+                    //MessageBox.Show("Conexion a la base de datos: OK", current.ToString());
+                    Log("INFO", "Database OK");
+                    Log("DEBUG", "ME CONECTE BIEN A LA BASE DE DATOS!");
                     estado = true;
+                    coneccionBaseDatos_b = true;
                     using (var cmd = new NpgsqlCommand())
                     {
                         cmd.Connection = conexion;
@@ -99,10 +123,10 @@ namespace Monitoreo_Carteles
                             }
                             /*for(int i=0; i<usuarios_l.Count; i++)
                             {
-                                Console.WriteLine("Usuario [{0}]: {1}", i, usuarios_l[i].Username);
-                                Console.WriteLine("Password [{0}]: {1}", i, usuarios_l[i].Password);
-                            }
-                            Console.WriteLine();*/
+                                Log("DEBUG", string.Format("Usuario [{0}]: {1}", i, usuarios_l[i].Username));
+                                Log("DEBUG", string.Format("Usuario [{0}]: {1}", i, usuarios_l[i].Username));
+                            }*/
+                            Console.WriteLine();
                         }
                         //LEO TODAS LAS COLUMNAS DE ESTACIONES
                         cmd.CommandText = "SELECT * FROM v_estaciones";
@@ -116,14 +140,14 @@ namespace Monitoreo_Carteles
                             }
                             /*for (int i = 0; i < estaciones_l.Count; i++)
                             {
-                                Console.WriteLine("numeroSerie [{0}]: {1}", i, estaciones_l[i].NumeroSerie);
-                                Console.WriteLine("numeroCartel [{0}]: {1}", i, estaciones_l[i].DateTime);
-                                Console.WriteLine("ip [{0}]: {1}", i, estaciones_l[i].Ip);
-                                Console.WriteLine("linea [{0}]: {1}", i, estaciones_l[i].Linea);
-                                Console.WriteLine("estacion [{0}]: {1}", i, estaciones_l[i].Estacionn);
-                                Console.WriteLine("dateTime [{0}]: {1}", i, estaciones_l[i].DateTime);
-                                Console.WriteLine("ping [{0}]: {1}", i, estaciones_l[i].Ping);
-                                Console.WriteLine();
+                                Log("DEBUG", string.Format("numeroSerie [{0}]: {1}", i, estaciones_l[i].NumeroSerie));
+                                Log("DEBUG", string.Format("numeroCartel [{0}]: {1}", i, estaciones_l[i].DateTime));
+                                Log("DEBUG", string.Format("ip [{0}]: {1}", i, estaciones_l[i].Ip));
+                                Log("DEBUG", string.Format("linea [{0}]: {1}", i, estaciones_l[i].Linea));
+                                Log("DEBUG", string.Format("estacion [{0}]: {1}", i, estaciones_l[i].Estacionn));
+                                Log("DEBUG", string.Format("dateTime [{0}]: {1}", i, estaciones_l[i].DateTime));
+                                Log("DEBUG", string.Format("ping [{0}]: {1}", i, estaciones_l[i].Ping));
+                                Log("DEBUG", string.Format(""));
                             }*/
                         }
                         //LEO TODAS LAS COLUMNAS DE CARTELES
@@ -139,17 +163,17 @@ namespace Monitoreo_Carteles
                             }
                             /*for (int i = 0; i < carteles_l.Count; i++)
                             {
-                                Console.WriteLine("numeroSerie [{0}]: {1}", i, carteles_l[i].NumeroSerie);
-                                Console.WriteLine("dateTime [{0}]: {1}", i, carteles_l[i].DateTime);
-                                Console.WriteLine("pila [{0}]: {1}", i, carteles_l[i].Pila);
-                                Console.WriteLine("temp [{0}]: {1}", i, carteles_l[i].Temp);
-                                Console.WriteLine("corriente [{0}]: {1}", i, carteles_l[i].Corriente);
-                                Console.WriteLine("fuente5v [{0}]: {1}", i, carteles_l[i].Fuente5v);
-                                Console.WriteLine("fuente24v [{0}]: {1}", i, carteles_l[i].Fuente24v);
-                                Console.WriteLine("fuentePpic [{0}]: {1}", i, carteles_l[i].FuentePpic);
-                                Console.WriteLine("fuente5pic [{0}]: {1}", i, carteles_l[i].Fuente5pic);
-                                Console.WriteLine("mensaje [{0}]: {1}", i, carteles_l[i].Mensaje);
-                                Console.WriteLine();
+                                Log("DEBUG", string.Format("numeroSerie [{0}]: {1}", i, carteles_l[i].NumeroSerie));
+                                Log("DEBUG", string.Format("dateTime [{0}]: {1}", i, carteles_l[i].DateTime));
+                                Log("DEBUG", string.Format("pila [{0}]: {1}", i, carteles_l[i].Pila));
+                                Log("DEBUG", string.Format("temp [{0}]: {1}", i, carteles_l[i].Temp));
+                                Log("DEBUG", string.Format("corriente [{0}]: {1}", i, carteles_l[i].Corriente));
+                                Log("DEBUG", string.Format("fuente5v [{0}]: {1}", i, carteles_l[i].Fuente5v));
+                                Log("DEBUG", string.Format("fuente24v [{0}]: {1}", i, carteles_l[i].Fuente24v));
+                                Log("DEBUG", string.Format("fuentePpic [{0}]: {1}", i, carteles_l[i].FuentePpic));
+                                Log("DEBUG", string.Format("fuente5pic [{0}]: {1}", i, carteles_l[i].Fuente5pic));
+                                Log("DEBUG", string.Format("mensaje [{0}]: {1}", i, carteles_l[i].Mensaje));
+                                Log("DEBUG", string.Format(""));
                             }*/
                         }
                     }
@@ -157,9 +181,12 @@ namespace Monitoreo_Carteles
                 }
                 catch (Exception)
                 {
-                    MessageBox.Show("Conexion a la base de datos: ERROR", current.ToString());
+                    //MessageBox.Show("Conexion a la base de datos: ERROR", current.ToString());
+                    Log("DEBUG", string.Format("NO ME PUDE CENCTAR A LA BASE DE DATOS!"));
+                    Log("INFO", string.Format("ERROR DATABASE"));
                     conexion.Close();
                     estado = false;
+                    coneccionBaseDatos_b = false;
                 }
             }
             return estado;
@@ -167,23 +194,39 @@ namespace Monitoreo_Carteles
 
         public static void Log(string type, string logMessage)
         {
-            DateTime dateValue = DateTime.Now;
-            string texto = String.Format("{0} - {1} - {2}", dateValue.ToString("G"), type, logMessage); // la G indica el formato de la hora XX/XX/XX 12:12:12
-            string path = "log.txt";
-            if (!File.Exists(path))
+            try
             {
-                using (StreamWriter sw = File.CreateText(path))
+                DateTime dateValue = DateTime.Now;
+                string texto = String.Format("{0} - {1} - {2}\n", dateValue.ToString("G"), type, logMessage); // la G indica el formato de la hora XX/XX/XX 12:12:12
+                string path = "log.txt";
+                if (!File.Exists(path))
                 {
-                    sw.WriteLine("ARCHIVO CREADO!");
+                    using (StreamWriter sw = File.CreateText(path))
+                    {
+                        sw.WriteLine("ARCHIVO CREADO!");
+                    }
                 }
+                using (StreamWriter sw = File.AppendText(path))
+                {
+                    sw.WriteLine(texto);
+                    Console.Write(texto);
+                    //if(monitor_b) Form_monitor.richTextBox_debug.AppendText(System.Environment.NewLine + texto);
+                }
+                
             }
-            using (StreamWriter sw = File.AppendText(path))
+            catch
             {
-                sw.WriteLine(texto);
-                Console.Write(texto);
+
             }
-            //richTextBox.AppendText(System.Environment.NewLine + texto);
         }
+        private void CheckKeys(object sender, System.Windows.Forms.KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                checkUserPass();   
+            }
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -231,6 +274,25 @@ namespace Monitoreo_Carteles
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+            checkUserPass();
+        }
+
+        private void textBox_username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void checkUserPass()
+        {
             bool usuario_b = false;
             string username_s, password_s;
             if (!string.IsNullOrWhiteSpace(textBox_username.Text) && !string.IsNullOrWhiteSpace(textBox_password.Text))
@@ -251,6 +313,9 @@ namespace Monitoreo_Carteles
                 if (usuario_b)
                 {
                     MessageBox.Show("USUARIO VALIDO!", "Inicio sesion");
+                    Form_monitor form_monitor = new Form_monitor();
+                    form_monitor.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -259,13 +324,8 @@ namespace Monitoreo_Carteles
             }
             else
             {
-                MessageBox.Show("AUN NO SE HA CONECTADO A LA BASE DE DATOS...","Error de conexion a la base de datos");
+                MessageBox.Show("AUN NO SE HA CONECTADO A LA BASE DE DATOS...", "Error de conexion a la base de datos");
             }
-        }
-
-        private void textBox_username_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
