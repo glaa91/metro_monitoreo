@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Monitoreo_Carteles
 {
-    class Estacion
+    public class Estacion
     {
         public string NumeroSerie { get; set; }
         public string NumeroCartel { get; set; }

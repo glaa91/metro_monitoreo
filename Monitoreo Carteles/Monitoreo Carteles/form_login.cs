@@ -32,16 +32,15 @@ namespace Monitoreo_Carteles
         private static System.Timers.Timer aTimer;
         private static List<Usuario> usuarios_l = new List<Usuario>();
         private static List<Cartel> carteles_l = new List<Cartel>();
-        private static List<Estacion> estaciones_l = new List<Estacion>();
-        //private static RichTextBox richTextBox;
-        //private TabControl tabControl1;
-        //private string tabMonitor_s = "MONITOR", tabDebug_s = "DEBUG", tabConfig_s = "CONFIGURACION";
+        public static List<Estacion> estaciones_l = new List<Estacion>();
+
         public static Boolean coneccionBaseDatos_b = false, monitor_b = false;
         public static int timeRefresh_i = 60000;
 
         public Form_login()
         {
             InitializeComponent();
+            this.textBox_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
             this.textBox_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
             SetTimer(timeRefresh_i, true);
             label_estadoConexion = new Label();
@@ -77,12 +76,12 @@ namespace Monitoreo_Carteles
             aTimer.Enabled = true;
         }
 
-        private static void OnTimedEvent(Object source, ElapsedEventArgs e)
+        public static void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
             Boolean caca = loadServer();
         }
 
-        private static Boolean loadServer()
+        public static Boolean loadServer()
         {
             Boolean estado = false;
             DateTime current = DateTime.Now;
@@ -136,7 +135,7 @@ namespace Monitoreo_Carteles
                             {
                                 var temp = new Estacion(reader.GetString(0), reader.GetString(1), reader.GetString(2),
                                     reader.GetString(3), reader.GetString(4), reader.GetString(5), reader.GetBoolean(6));
-                                estaciones_l.Add(temp);
+                                Form_login.estaciones_l.Add(temp);
                             }
                             /*for (int i = 0; i < estaciones_l.Count; i++)
                             {
@@ -198,7 +197,8 @@ namespace Monitoreo_Carteles
             {
                 DateTime dateValue = DateTime.Now;
                 string texto = String.Format("{0} - {1} - {2}\n", dateValue.ToString("G"), type, logMessage); // la G indica el formato de la hora XX/XX/XX 12:12:12
-                string path = "log.txt";
+                string path = Directory.GetCurrentDirectory();
+                path = String.Format(path + "log.txt");
                 if (!File.Exists(path))
                 {
                     using (StreamWriter sw = File.CreateText(path))
@@ -297,8 +297,8 @@ namespace Monitoreo_Carteles
             string username_s, password_s;
             if (!string.IsNullOrWhiteSpace(textBox_username.Text) && !string.IsNullOrWhiteSpace(textBox_password.Text))
             {   //veo que no esten vacio los text box
-                username_s = textBox_username.Text;
-                password_s = textBox_password.Text;
+                username_s = textBox_username.Text.ToLower();
+                password_s = textBox_password.Text.ToLower();
                 for (int i = 0; i < usuarios_l.Count; i++) //busco en mis objetos usuarios cargados para comparar
                 {
                     if (usuarios_l[i].Username == username_s && usuarios_l[i].Password == password_s) // valido usuario y contraseña con lo que tengo cargado

@@ -811,3 +811,2795 @@ ARCHIVO CREADO!
 
 14/12/2016 16:42:36 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
 
+15/12/2016 09:13:03 - INFO - Database OK
+
+15/12/2016 09:13:03 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:14:01 - INFO - Database OK
+
+15/12/2016 09:14:01 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:15:01 - INFO - Database OK
+
+15/12/2016 09:15:01 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:16:01 - INFO - Database OK
+
+15/12/2016 09:16:01 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:22:36 - INFO - Database OK
+
+15/12/2016 09:22:36 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:23:35 - INFO - Database OK
+
+15/12/2016 09:23:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:24:35 - INFO - Database OK
+
+15/12/2016 09:24:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:25:35 - INFO - Database OK
+
+15/12/2016 09:25:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:26:35 - INFO - Database OK
+
+15/12/2016 09:26:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:27:35 - INFO - Database OK
+
+15/12/2016 09:27:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:28:35 - INFO - Database OK
+
+15/12/2016 09:28:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:29:35 - INFO - Database OK
+
+15/12/2016 09:29:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:30:35 - INFO - Database OK
+
+15/12/2016 09:30:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:31:35 - INFO - Database OK
+
+15/12/2016 09:31:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 09:32:35 - INFO - Database OK
+
+15/12/2016 09:32:35 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 11:58:47 - DEBUG - NO ME PUDE CENCTAR A LA BASE DE DATOS!
+
+15/12/2016 11:58:47 - INFO - ERROR DATABASE
+
+15/12/2016 11:59:32 - INFO - Database OK
+
+15/12/2016 11:59:32 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:18:08 - INFO - Database OK
+
+15/12/2016 12:18:08 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:18:41 - INFO - Database OK
+
+15/12/2016 12:18:41 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:19:44 - INFO - Database OK
+
+15/12/2016 12:19:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:19:50 - DEBUG - 9 de julio
+
+15/12/2016 12:19:50 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:19:50 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:19:50 - DEBUG - federico lacroze
+
+15/12/2016 12:19:50 - DEBUG - bonifacio
+
+15/12/2016 12:19:50 - DEBUG - hospitales
+
+15/12/2016 12:19:50 - DEBUG - caseros
+
+15/12/2016 12:19:50 - DEBUG - inclan
+
+15/12/2016 12:19:50 - DEBUG - catedral
+
+15/12/2016 12:19:50 - DEBUG - humberto primo
+
+15/12/2016 12:19:50 - DEBUG - venezuela
+
+15/12/2016 12:19:50 - DEBUG - once
+
+15/12/2016 12:19:50 - DEBUG - corrientes
+
+15/12/2016 12:19:50 - DEBUG - cordoba
+
+15/12/2016 12:19:50 - DEBUG - cordoba
+
+15/12/2016 12:19:50 - DEBUG - cordoba
+
+15/12/2016 12:19:50 - DEBUG - cordoba
+
+15/12/2016 12:19:50 - DEBUG - santa fe
+
+15/12/2016 12:19:50 - DEBUG - santa fe
+
+15/12/2016 12:19:50 - DEBUG - santa fe
+
+15/12/2016 12:19:50 - DEBUG - santa fe
+
+15/12/2016 12:19:50 - DEBUG - santa fe
+
+15/12/2016 12:19:50 - DEBUG - santa fe
+
+15/12/2016 12:19:50 - DEBUG - las heras
+
+15/12/2016 12:19:50 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:19:50 - DEBUG - bolivar
+
+15/12/2016 12:19:50 - DEBUG - federico lacroze
+
+15/12/2016 12:19:50 - DEBUG - las heras
+
+15/12/2016 12:19:50 - DEBUG - florida
+
+15/12/2016 12:19:50 - DEBUG - federico lacroze
+
+15/12/2016 12:19:50 - DEBUG - jose maria moreno
+
+15/12/2016 12:19:50 - DEBUG - leandro n alem
+
+15/12/2016 12:19:50 - DEBUG - leandro n alem
+
+15/12/2016 12:19:50 - DEBUG - leandro n alem
+
+15/12/2016 12:19:50 - DEBUG - leandro n alem
+
+15/12/2016 12:19:50 - DEBUG - florida
+
+15/12/2016 12:19:50 - DEBUG - florida
+
+15/12/2016 12:19:50 - DEBUG - carlos pelegrini
+
+15/12/2016 12:19:50 - DEBUG - carlos pelegrini
+
+15/12/2016 12:19:50 - DEBUG - carlos pelegrini
+
+15/12/2016 12:19:50 - DEBUG - uruguay
+
+15/12/2016 12:19:50 - DEBUG - uruguay
+
+15/12/2016 12:19:50 - DEBUG - callao
+
+15/12/2016 12:19:50 - DEBUG - callao
+
+15/12/2016 12:19:50 - DEBUG - callao
+
+15/12/2016 12:19:50 - DEBUG - pasteur
+
+15/12/2016 12:19:50 - DEBUG - pasteur
+
+15/12/2016 12:19:50 - DEBUG - pueyrredon
+
+15/12/2016 12:19:50 - DEBUG - pueyrredon
+
+15/12/2016 12:19:50 - DEBUG - carlos gardel
+
+15/12/2016 12:19:50 - DEBUG - carlos gardel
+
+15/12/2016 12:19:50 - DEBUG - medrano
+
+15/12/2016 12:19:50 - DEBUG - medrano
+
+15/12/2016 12:19:50 - DEBUG - medrano
+
+15/12/2016 12:19:50 - DEBUG - angel gallardo
+
+15/12/2016 12:19:50 - DEBUG - angel gallardo
+
+15/12/2016 12:19:50 - DEBUG - malabia
+
+15/12/2016 12:19:50 - DEBUG - malabia
+
+15/12/2016 12:19:50 - DEBUG - malabia
+
+15/12/2016 12:19:50 - DEBUG - dorrego
+
+15/12/2016 12:19:50 - DEBUG - dorrego
+
+15/12/2016 12:19:50 - DEBUG - federico lacroze
+
+15/12/2016 12:19:50 - DEBUG - federico lacroze
+
+15/12/2016 12:19:50 - DEBUG - carlos pelegrini
+
+15/12/2016 12:19:50 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:19:50 - DEBUG - catedral
+
+15/12/2016 12:19:50 - DEBUG - catedral
+
+15/12/2016 12:19:50 - DEBUG - catedral
+
+15/12/2016 12:19:50 - DEBUG - 9 de julio
+
+15/12/2016 12:19:50 - DEBUG - 9 de julio
+
+15/12/2016 12:19:50 - DEBUG - carlos gardel
+
+15/12/2016 12:19:50 - DEBUG - caseros
+
+15/12/2016 12:19:50 - DEBUG - malabia
+
+15/12/2016 12:19:50 - DEBUG - bolivar
+
+15/12/2016 12:19:50 - DEBUG - florida
+
+15/12/2016 12:19:50 - DEBUG - dorrego
+
+15/12/2016 12:19:50 - DEBUG - uruguay
+
+15/12/2016 12:19:50 - DEBUG - los incas
+
+15/12/2016 12:19:50 - DEBUG - florida
+
+15/12/2016 12:19:50 - DEBUG - los incas
+
+15/12/2016 12:19:50 - DEBUG - federico lacroze
+
+15/12/2016 12:19:50 - DEBUG - humberto primo
+
+15/12/2016 12:19:50 - DEBUG - inclan
+
+15/12/2016 12:19:50 - DEBUG - uruguay
+
+15/12/2016 12:19:50 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:19:50 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:19:50 - DEBUG - jujuy
+
+15/12/2016 12:19:50 - DEBUG - tribunales
+
+15/12/2016 12:19:50 - DEBUG - callao
+
+15/12/2016 12:19:50 - DEBUG - callao
+
+15/12/2016 12:19:50 - DEBUG - facultad de medicina
+
+15/12/2016 12:19:50 - DEBUG - pueyrredon
+
+15/12/2016 12:19:50 - DEBUG - pueyrredon
+
+15/12/2016 12:19:50 - DEBUG - aguero
+
+15/12/2016 12:19:50 - DEBUG - bulnes
+
+15/12/2016 12:19:50 - DEBUG - bulnes
+
+15/12/2016 12:19:50 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:19:50 - DEBUG - juramento
+
+15/12/2016 12:19:51 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:19:51 - DEBUG - plaza italia
+
+15/12/2016 12:19:51 - DEBUG - plaza italia
+
+15/12/2016 12:19:51 - DEBUG - catedral
+
+15/12/2016 12:19:51 - DEBUG - bolivar
+
+15/12/2016 12:19:51 - DEBUG - independencia
+
+15/12/2016 12:19:51 - DEBUG - entre rios
+
+15/12/2016 12:19:51 - DEBUG - pichincha
+
+15/12/2016 12:19:51 - DEBUG - urquiza
+
+15/12/2016 12:19:51 - DEBUG - La plata
+
+15/12/2016 12:19:51 - DEBUG - emilio mitre
+
+15/12/2016 12:19:51 - DEBUG - palermo
+
+15/12/2016 12:19:51 - DEBUG - ministro carranza
+
+15/12/2016 12:19:51 - DEBUG - ministro carranza
+
+15/12/2016 12:19:51 - DEBUG - olleros
+
+15/12/2016 12:19:51 - DEBUG - jose hernandez
+
+15/12/2016 12:19:51 - DEBUG - jose hernandez
+
+15/12/2016 12:19:51 - DEBUG - juramento
+
+15/12/2016 12:19:51 - DEBUG - juramento
+
+15/12/2016 12:19:51 - DEBUG - juramento
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:19:51 - DEBUG - medrano
+
+15/12/2016 12:19:51 - DEBUG - malabia
+
+15/12/2016 12:19:51 - DEBUG - dorrego
+
+15/12/2016 12:19:51 - DEBUG - tronador
+
+15/12/2016 12:19:51 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:19:51 - DEBUG - catedral
+
+15/12/2016 12:19:51 - DEBUG - tribunales
+
+15/12/2016 12:19:51 - DEBUG - callao
+
+15/12/2016 12:19:51 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:19:51 - DEBUG - pueyrredon
+
+15/12/2016 12:19:51 - DEBUG - medalla milagrosa
+
+15/12/2016 12:19:51 - DEBUG - jose hernandez
+
+15/12/2016 12:19:51 - DEBUG - ministro carranza
+
+15/12/2016 12:19:51 - DEBUG - aguero
+
+15/12/2016 12:19:51 - DEBUG - once
+
+15/12/2016 12:19:51 - DEBUG - La plata
+
+15/12/2016 12:19:51 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:19:51 - DEBUG - aguero
+
+15/12/2016 12:19:51 - DEBUG - parque de los patricios
+
+15/12/2016 12:19:51 - DEBUG - varela
+
+15/12/2016 12:19:51 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:19:51 - DEBUG - los incas
+
+15/12/2016 12:19:51 - DEBUG - bulnes
+
+15/12/2016 12:19:51 - DEBUG - callao
+
+15/12/2016 12:19:51 - DEBUG - belgrano
+
+15/12/2016 12:19:51 - DEBUG - facultad de medicina
+
+15/12/2016 12:19:51 - DEBUG - callao
+
+15/12/2016 12:19:51 - DEBUG - palermo
+
+15/12/2016 12:19:51 - DEBUG - palermo
+
+15/12/2016 12:19:51 - DEBUG - olleros
+
+15/12/2016 12:19:51 - DEBUG - bulnes
+
+15/12/2016 12:19:51 - DEBUG - angel gallardo
+
+15/12/2016 12:19:51 - DEBUG - independencia
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:19:51 - DEBUG - jose hernandez
+
+15/12/2016 12:19:51 - DEBUG - facultad de medicina
+
+15/12/2016 12:19:51 - DEBUG - palermo
+
+15/12/2016 12:19:51 - DEBUG - pueyrredon
+
+15/12/2016 12:19:51 - DEBUG - san jose
+
+15/12/2016 12:19:51 - DEBUG - boedo
+
+15/12/2016 12:19:51 - DEBUG - plaza italia
+
+15/12/2016 12:19:51 - DEBUG - aguero
+
+15/12/2016 12:19:51 - DEBUG - olleros
+
+15/12/2016 12:19:51 - DEBUG - angel gallardo
+
+15/12/2016 12:19:51 - DEBUG - pasteur
+
+15/12/2016 12:19:51 - DEBUG - plaza italia
+
+15/12/2016 12:19:51 - DEBUG - olleros
+
+15/12/2016 12:19:51 - DEBUG - boedo
+
+15/12/2016 12:19:51 - DEBUG - bulnes
+
+15/12/2016 12:19:51 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:19:51 - DEBUG - facultad de medicina
+
+15/12/2016 12:19:51 - DEBUG - jose maria moreno
+
+15/12/2016 12:19:51 - DEBUG - plaza italia
+
+15/12/2016 12:19:51 - DEBUG - santa fe
+
+15/12/2016 12:19:51 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:19:51 - DEBUG - pueyrredon
+
+15/12/2016 12:19:51 - DEBUG - angel gallardo
+
+15/12/2016 12:19:51 - DEBUG - los incas
+
+15/12/2016 12:19:51 - DEBUG - las heras
+
+15/12/2016 12:19:51 - DEBUG - entre rios
+
+15/12/2016 12:19:51 - DEBUG - carlos gardel
+
+15/12/2016 12:19:51 - DEBUG - federico lacroze
+
+15/12/2016 12:19:51 - DEBUG - echeverria
+
+15/12/2016 12:19:51 - DEBUG - medrano
+
+15/12/2016 12:19:51 - DEBUG - carlos pelegrini
+
+15/12/2016 12:19:51 - DEBUG - santa fe
+
+15/12/2016 12:19:51 - DEBUG - tribunales
+
+15/12/2016 12:19:51 - DEBUG - 9 de julio
+
+15/12/2016 12:19:51 - DEBUG - las heras
+
+15/12/2016 12:19:51 - DEBUG - parque de los patricios
+
+15/12/2016 12:19:51 - DEBUG - echeverria
+
+15/12/2016 12:19:51 - DEBUG - plaza italia
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:19:51 - DEBUG - leandro n alem
+
+15/12/2016 12:19:51 - DEBUG - dorrego
+
+15/12/2016 12:19:51 - DEBUG - congreso de tucuman
+
+15/12/2016 12:20:44 - INFO - Database OK
+
+15/12/2016 12:20:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:21:44 - INFO - Database OK
+
+15/12/2016 12:21:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:22:44 - INFO - Database OK
+
+15/12/2016 12:22:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:23:44 - INFO - Database OK
+
+15/12/2016 12:23:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:24:44 - INFO - Database OK
+
+15/12/2016 12:24:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:25:44 - INFO - Database OK
+
+15/12/2016 12:25:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:26:44 - INFO - Database OK
+
+15/12/2016 12:26:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:30:07 - DEBUG - NO ME PUDE CENCTAR A LA BASE DE DATOS!
+
+15/12/2016 12:30:07 - INFO - ERROR DATABASE
+
+15/12/2016 12:32:16 - INFO - Database OK
+
+15/12/2016 12:32:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:32:33 - DEBUG - 9 de julio
+
+15/12/2016 12:32:33 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:32:33 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:32:33 - DEBUG - federico lacroze
+
+15/12/2016 12:32:33 - DEBUG - bonifacio
+
+15/12/2016 12:32:33 - DEBUG - hospitales
+
+15/12/2016 12:32:33 - DEBUG - caseros
+
+15/12/2016 12:32:33 - DEBUG - inclan
+
+15/12/2016 12:32:33 - DEBUG - catedral
+
+15/12/2016 12:32:33 - DEBUG - humberto primo
+
+15/12/2016 12:32:33 - DEBUG - venezuela
+
+15/12/2016 12:32:33 - DEBUG - once
+
+15/12/2016 12:32:33 - DEBUG - corrientes
+
+15/12/2016 12:32:33 - DEBUG - cordoba
+
+15/12/2016 12:32:33 - DEBUG - cordoba
+
+15/12/2016 12:32:33 - DEBUG - cordoba
+
+15/12/2016 12:32:33 - DEBUG - cordoba
+
+15/12/2016 12:32:33 - DEBUG - santa fe
+
+15/12/2016 12:32:33 - DEBUG - santa fe
+
+15/12/2016 12:32:33 - DEBUG - santa fe
+
+15/12/2016 12:32:33 - DEBUG - santa fe
+
+15/12/2016 12:32:33 - DEBUG - santa fe
+
+15/12/2016 12:32:33 - DEBUG - santa fe
+
+15/12/2016 12:32:33 - DEBUG - las heras
+
+15/12/2016 12:32:33 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:32:33 - DEBUG - bolivar
+
+15/12/2016 12:32:33 - DEBUG - federico lacroze
+
+15/12/2016 12:32:33 - DEBUG - las heras
+
+15/12/2016 12:32:33 - DEBUG - florida
+
+15/12/2016 12:32:33 - DEBUG - federico lacroze
+
+15/12/2016 12:32:33 - DEBUG - jose maria moreno
+
+15/12/2016 12:32:33 - DEBUG - leandro n alem
+
+15/12/2016 12:32:33 - DEBUG - leandro n alem
+
+15/12/2016 12:32:33 - DEBUG - leandro n alem
+
+15/12/2016 12:32:33 - DEBUG - leandro n alem
+
+15/12/2016 12:32:33 - DEBUG - florida
+
+15/12/2016 12:32:33 - DEBUG - florida
+
+15/12/2016 12:32:33 - DEBUG - carlos pelegrini
+
+15/12/2016 12:32:33 - DEBUG - carlos pelegrini
+
+15/12/2016 12:32:33 - DEBUG - carlos pelegrini
+
+15/12/2016 12:32:33 - DEBUG - uruguay
+
+15/12/2016 12:32:33 - DEBUG - uruguay
+
+15/12/2016 12:32:33 - DEBUG - callao
+
+15/12/2016 12:32:33 - DEBUG - callao
+
+15/12/2016 12:32:33 - DEBUG - callao
+
+15/12/2016 12:32:33 - DEBUG - pasteur
+
+15/12/2016 12:32:33 - DEBUG - pasteur
+
+15/12/2016 12:32:33 - DEBUG - pueyrredon
+
+15/12/2016 12:32:33 - DEBUG - pueyrredon
+
+15/12/2016 12:32:33 - DEBUG - carlos gardel
+
+15/12/2016 12:32:33 - DEBUG - carlos gardel
+
+15/12/2016 12:32:33 - DEBUG - medrano
+
+15/12/2016 12:32:33 - DEBUG - medrano
+
+15/12/2016 12:32:33 - DEBUG - medrano
+
+15/12/2016 12:32:33 - DEBUG - angel gallardo
+
+15/12/2016 12:32:33 - DEBUG - angel gallardo
+
+15/12/2016 12:32:33 - DEBUG - malabia
+
+15/12/2016 12:32:33 - DEBUG - malabia
+
+15/12/2016 12:32:33 - DEBUG - malabia
+
+15/12/2016 12:32:33 - DEBUG - dorrego
+
+15/12/2016 12:32:33 - DEBUG - dorrego
+
+15/12/2016 12:32:33 - DEBUG - federico lacroze
+
+15/12/2016 12:32:33 - DEBUG - federico lacroze
+
+15/12/2016 12:32:33 - DEBUG - carlos pelegrini
+
+15/12/2016 12:32:33 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:32:33 - DEBUG - catedral
+
+15/12/2016 12:32:33 - DEBUG - catedral
+
+15/12/2016 12:32:33 - DEBUG - catedral
+
+15/12/2016 12:32:33 - DEBUG - 9 de julio
+
+15/12/2016 12:32:33 - DEBUG - 9 de julio
+
+15/12/2016 12:32:33 - DEBUG - carlos gardel
+
+15/12/2016 12:32:33 - DEBUG - caseros
+
+15/12/2016 12:32:33 - DEBUG - malabia
+
+15/12/2016 12:32:33 - DEBUG - bolivar
+
+15/12/2016 12:32:33 - DEBUG - florida
+
+15/12/2016 12:32:33 - DEBUG - dorrego
+
+15/12/2016 12:32:33 - DEBUG - uruguay
+
+15/12/2016 12:32:33 - DEBUG - los incas
+
+15/12/2016 12:32:33 - DEBUG - florida
+
+15/12/2016 12:32:33 - DEBUG - los incas
+
+15/12/2016 12:32:33 - DEBUG - federico lacroze
+
+15/12/2016 12:32:33 - DEBUG - humberto primo
+
+15/12/2016 12:32:33 - DEBUG - inclan
+
+15/12/2016 12:32:33 - DEBUG - uruguay
+
+15/12/2016 12:32:33 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:32:33 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:32:33 - DEBUG - jujuy
+
+15/12/2016 12:32:33 - DEBUG - tribunales
+
+15/12/2016 12:32:33 - DEBUG - callao
+
+15/12/2016 12:32:34 - DEBUG - callao
+
+15/12/2016 12:32:34 - DEBUG - facultad de medicina
+
+15/12/2016 12:32:34 - DEBUG - pueyrredon
+
+15/12/2016 12:32:34 - DEBUG - pueyrredon
+
+15/12/2016 12:32:34 - DEBUG - aguero
+
+15/12/2016 12:32:34 - DEBUG - bulnes
+
+15/12/2016 12:32:34 - DEBUG - bulnes
+
+15/12/2016 12:32:34 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:32:34 - DEBUG - juramento
+
+15/12/2016 12:32:34 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:32:34 - DEBUG - plaza italia
+
+15/12/2016 12:32:34 - DEBUG - plaza italia
+
+15/12/2016 12:32:34 - DEBUG - catedral
+
+15/12/2016 12:32:34 - DEBUG - bolivar
+
+15/12/2016 12:32:34 - DEBUG - independencia
+
+15/12/2016 12:32:34 - DEBUG - entre rios
+
+15/12/2016 12:32:34 - DEBUG - pichincha
+
+15/12/2016 12:32:34 - DEBUG - urquiza
+
+15/12/2016 12:32:34 - DEBUG - La plata
+
+15/12/2016 12:32:34 - DEBUG - emilio mitre
+
+15/12/2016 12:32:34 - DEBUG - palermo
+
+15/12/2016 12:32:34 - DEBUG - ministro carranza
+
+15/12/2016 12:32:34 - DEBUG - ministro carranza
+
+15/12/2016 12:32:34 - DEBUG - olleros
+
+15/12/2016 12:32:34 - DEBUG - jose hernandez
+
+15/12/2016 12:32:34 - DEBUG - jose hernandez
+
+15/12/2016 12:32:34 - DEBUG - juramento
+
+15/12/2016 12:32:34 - DEBUG - juramento
+
+15/12/2016 12:32:34 - DEBUG - juramento
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - medrano
+
+15/12/2016 12:32:34 - DEBUG - malabia
+
+15/12/2016 12:32:34 - DEBUG - dorrego
+
+15/12/2016 12:32:34 - DEBUG - tronador
+
+15/12/2016 12:32:34 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:32:34 - DEBUG - catedral
+
+15/12/2016 12:32:34 - DEBUG - tribunales
+
+15/12/2016 12:32:34 - DEBUG - callao
+
+15/12/2016 12:32:34 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:32:34 - DEBUG - pueyrredon
+
+15/12/2016 12:32:34 - DEBUG - medalla milagrosa
+
+15/12/2016 12:32:34 - DEBUG - jose hernandez
+
+15/12/2016 12:32:34 - DEBUG - ministro carranza
+
+15/12/2016 12:32:34 - DEBUG - aguero
+
+15/12/2016 12:32:34 - DEBUG - once
+
+15/12/2016 12:32:34 - DEBUG - La plata
+
+15/12/2016 12:32:34 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:32:34 - DEBUG - aguero
+
+15/12/2016 12:32:34 - DEBUG - parque de los patricios
+
+15/12/2016 12:32:34 - DEBUG - varela
+
+15/12/2016 12:32:34 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:32:34 - DEBUG - los incas
+
+15/12/2016 12:32:34 - DEBUG - bulnes
+
+15/12/2016 12:32:34 - DEBUG - callao
+
+15/12/2016 12:32:34 - DEBUG - belgrano
+
+15/12/2016 12:32:34 - DEBUG - facultad de medicina
+
+15/12/2016 12:32:34 - DEBUG - callao
+
+15/12/2016 12:32:34 - DEBUG - palermo
+
+15/12/2016 12:32:34 - DEBUG - palermo
+
+15/12/2016 12:32:34 - DEBUG - olleros
+
+15/12/2016 12:32:34 - DEBUG - bulnes
+
+15/12/2016 12:32:34 - DEBUG - angel gallardo
+
+15/12/2016 12:32:34 - DEBUG - independencia
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - jose hernandez
+
+15/12/2016 12:32:34 - DEBUG - facultad de medicina
+
+15/12/2016 12:32:34 - DEBUG - palermo
+
+15/12/2016 12:32:34 - DEBUG - pueyrredon
+
+15/12/2016 12:32:34 - DEBUG - san jose
+
+15/12/2016 12:32:34 - DEBUG - boedo
+
+15/12/2016 12:32:34 - DEBUG - plaza italia
+
+15/12/2016 12:32:34 - DEBUG - aguero
+
+15/12/2016 12:32:34 - DEBUG - olleros
+
+15/12/2016 12:32:34 - DEBUG - angel gallardo
+
+15/12/2016 12:32:34 - DEBUG - pasteur
+
+15/12/2016 12:32:34 - DEBUG - plaza italia
+
+15/12/2016 12:32:34 - DEBUG - olleros
+
+15/12/2016 12:32:34 - DEBUG - boedo
+
+15/12/2016 12:32:34 - DEBUG - bulnes
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - leandro n alem
+
+15/12/2016 12:32:34 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:32:34 - DEBUG - dorrego
+
+15/12/2016 12:32:34 - DEBUG - facultad de medicina
+
+15/12/2016 12:32:34 - DEBUG - congreso de tucuman
+
+15/12/2016 12:32:34 - DEBUG - jose maria moreno
+
+15/12/2016 12:32:34 - DEBUG - plaza italia
+
+15/12/2016 12:32:34 - DEBUG - santa fe
+
+15/12/2016 12:32:34 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:32:34 - DEBUG - pueyrredon
+
+15/12/2016 12:32:34 - DEBUG - angel gallardo
+
+15/12/2016 12:32:34 - DEBUG - carlos pelegrini
+
+15/12/2016 12:32:34 - DEBUG - los incas
+
+15/12/2016 12:32:34 - DEBUG - santa fe
+
+15/12/2016 12:32:35 - DEBUG - las heras
+
+15/12/2016 12:32:35 - DEBUG - tribunales
+
+15/12/2016 12:32:35 - DEBUG - entre rios
+
+15/12/2016 12:32:35 - DEBUG - 9 de julio
+
+15/12/2016 12:32:35 - DEBUG - carlos gardel
+
+15/12/2016 12:32:35 - DEBUG - las heras
+
+15/12/2016 12:32:35 - DEBUG - federico lacroze
+
+15/12/2016 12:32:35 - DEBUG - parque de los patricios
+
+15/12/2016 12:32:35 - DEBUG - echeverria
+
+15/12/2016 12:32:35 - DEBUG - echeverria
+
+15/12/2016 12:32:35 - DEBUG - plaza italia
+
+15/12/2016 12:32:35 - DEBUG - medrano
+
+15/12/2016 12:33:16 - INFO - Database OK
+
+15/12/2016 12:33:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:34:16 - INFO - Database OK
+
+15/12/2016 12:34:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:35:16 - INFO - Database OK
+
+15/12/2016 12:35:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:36:16 - INFO - Database OK
+
+15/12/2016 12:36:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:37:16 - INFO - Database OK
+
+15/12/2016 12:37:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:38:16 - INFO - Database OK
+
+15/12/2016 12:38:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:39:16 - INFO - Database OK
+
+15/12/2016 12:39:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:40:16 - INFO - Database OK
+
+15/12/2016 12:40:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:45:57 - DEBUG - NO ME PUDE CENCTAR A LA BASE DE DATOS!
+
+15/12/2016 12:45:57 - INFO - ERROR DATABASE
+
+15/12/2016 12:46:10 - INFO - Database OK
+
+15/12/2016 12:46:10 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:46:16 - DEBUG - 9 de julio
+
+15/12/2016 12:46:16 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:46:16 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:46:16 - DEBUG - federico lacroze
+
+15/12/2016 12:46:16 - DEBUG - bonifacio
+
+15/12/2016 12:46:16 - DEBUG - hospitales
+
+15/12/2016 12:46:16 - DEBUG - caseros
+
+15/12/2016 12:46:16 - DEBUG - inclan
+
+15/12/2016 12:46:16 - DEBUG - catedral
+
+15/12/2016 12:46:16 - DEBUG - humberto primo
+
+15/12/2016 12:46:16 - DEBUG - venezuela
+
+15/12/2016 12:46:16 - DEBUG - once
+
+15/12/2016 12:46:16 - DEBUG - corrientes
+
+15/12/2016 12:46:16 - DEBUG - cordoba
+
+15/12/2016 12:46:16 - DEBUG - cordoba
+
+15/12/2016 12:46:16 - DEBUG - cordoba
+
+15/12/2016 12:46:16 - DEBUG - cordoba
+
+15/12/2016 12:46:16 - DEBUG - santa fe
+
+15/12/2016 12:46:16 - DEBUG - santa fe
+
+15/12/2016 12:46:16 - DEBUG - santa fe
+
+15/12/2016 12:46:16 - DEBUG - santa fe
+
+15/12/2016 12:46:16 - DEBUG - santa fe
+
+15/12/2016 12:46:16 - DEBUG - santa fe
+
+15/12/2016 12:46:16 - DEBUG - las heras
+
+15/12/2016 12:46:16 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:46:16 - DEBUG - bolivar
+
+15/12/2016 12:46:16 - DEBUG - federico lacroze
+
+15/12/2016 12:46:16 - DEBUG - las heras
+
+15/12/2016 12:46:16 - DEBUG - florida
+
+15/12/2016 12:46:16 - DEBUG - federico lacroze
+
+15/12/2016 12:46:16 - DEBUG - jose maria moreno
+
+15/12/2016 12:46:16 - DEBUG - leandro n alem
+
+15/12/2016 12:46:16 - DEBUG - leandro n alem
+
+15/12/2016 12:46:16 - DEBUG - leandro n alem
+
+15/12/2016 12:46:16 - DEBUG - leandro n alem
+
+15/12/2016 12:46:16 - DEBUG - florida
+
+15/12/2016 12:46:16 - DEBUG - florida
+
+15/12/2016 12:46:16 - DEBUG - carlos pelegrini
+
+15/12/2016 12:46:16 - DEBUG - carlos pelegrini
+
+15/12/2016 12:46:16 - DEBUG - carlos pelegrini
+
+15/12/2016 12:46:16 - DEBUG - uruguay
+
+15/12/2016 12:46:16 - DEBUG - uruguay
+
+15/12/2016 12:46:16 - DEBUG - callao
+
+15/12/2016 12:46:16 - DEBUG - callao
+
+15/12/2016 12:46:16 - DEBUG - callao
+
+15/12/2016 12:46:16 - DEBUG - pasteur
+
+15/12/2016 12:46:16 - DEBUG - pasteur
+
+15/12/2016 12:46:16 - DEBUG - pueyrredon
+
+15/12/2016 12:46:16 - DEBUG - pueyrredon
+
+15/12/2016 12:46:16 - DEBUG - carlos gardel
+
+15/12/2016 12:46:16 - DEBUG - carlos gardel
+
+15/12/2016 12:46:16 - DEBUG - medrano
+
+15/12/2016 12:46:16 - DEBUG - medrano
+
+15/12/2016 12:46:16 - DEBUG - medrano
+
+15/12/2016 12:46:16 - DEBUG - angel gallardo
+
+15/12/2016 12:46:16 - DEBUG - angel gallardo
+
+15/12/2016 12:46:16 - DEBUG - malabia
+
+15/12/2016 12:46:17 - DEBUG - malabia
+
+15/12/2016 12:46:17 - DEBUG - malabia
+
+15/12/2016 12:46:17 - DEBUG - dorrego
+
+15/12/2016 12:46:17 - DEBUG - dorrego
+
+15/12/2016 12:46:17 - DEBUG - federico lacroze
+
+15/12/2016 12:46:17 - DEBUG - federico lacroze
+
+15/12/2016 12:46:17 - DEBUG - carlos pelegrini
+
+15/12/2016 12:46:17 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:46:17 - DEBUG - catedral
+
+15/12/2016 12:46:17 - DEBUG - catedral
+
+15/12/2016 12:46:17 - DEBUG - catedral
+
+15/12/2016 12:46:17 - DEBUG - 9 de julio
+
+15/12/2016 12:46:17 - DEBUG - 9 de julio
+
+15/12/2016 12:46:17 - DEBUG - carlos gardel
+
+15/12/2016 12:46:17 - DEBUG - caseros
+
+15/12/2016 12:46:17 - DEBUG - malabia
+
+15/12/2016 12:46:17 - DEBUG - bolivar
+
+15/12/2016 12:46:17 - DEBUG - florida
+
+15/12/2016 12:46:17 - DEBUG - dorrego
+
+15/12/2016 12:46:17 - DEBUG - uruguay
+
+15/12/2016 12:46:17 - DEBUG - los incas
+
+15/12/2016 12:46:17 - DEBUG - florida
+
+15/12/2016 12:46:17 - DEBUG - los incas
+
+15/12/2016 12:46:17 - DEBUG - federico lacroze
+
+15/12/2016 12:46:17 - DEBUG - humberto primo
+
+15/12/2016 12:46:17 - DEBUG - inclan
+
+15/12/2016 12:46:17 - DEBUG - uruguay
+
+15/12/2016 12:46:17 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:46:17 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:46:17 - DEBUG - jujuy
+
+15/12/2016 12:46:17 - DEBUG - tribunales
+
+15/12/2016 12:46:17 - DEBUG - callao
+
+15/12/2016 12:46:17 - DEBUG - callao
+
+15/12/2016 12:46:17 - DEBUG - facultad de medicina
+
+15/12/2016 12:46:17 - DEBUG - pueyrredon
+
+15/12/2016 12:46:17 - DEBUG - pueyrredon
+
+15/12/2016 12:46:17 - DEBUG - aguero
+
+15/12/2016 12:46:17 - DEBUG - bulnes
+
+15/12/2016 12:46:17 - DEBUG - bulnes
+
+15/12/2016 12:46:17 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:46:17 - DEBUG - juramento
+
+15/12/2016 12:46:17 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:46:17 - DEBUG - plaza italia
+
+15/12/2016 12:46:17 - DEBUG - plaza italia
+
+15/12/2016 12:46:17 - DEBUG - catedral
+
+15/12/2016 12:46:17 - DEBUG - bolivar
+
+15/12/2016 12:46:17 - DEBUG - independencia
+
+15/12/2016 12:46:17 - DEBUG - entre rios
+
+15/12/2016 12:46:17 - DEBUG - pichincha
+
+15/12/2016 12:46:17 - DEBUG - urquiza
+
+15/12/2016 12:46:17 - DEBUG - La plata
+
+15/12/2016 12:46:17 - DEBUG - emilio mitre
+
+15/12/2016 12:46:17 - DEBUG - palermo
+
+15/12/2016 12:46:17 - DEBUG - ministro carranza
+
+15/12/2016 12:46:17 - DEBUG - ministro carranza
+
+15/12/2016 12:46:17 - DEBUG - olleros
+
+15/12/2016 12:46:17 - DEBUG - jose hernandez
+
+15/12/2016 12:46:17 - DEBUG - jose hernandez
+
+15/12/2016 12:46:17 - DEBUG - juramento
+
+15/12/2016 12:46:17 - DEBUG - juramento
+
+15/12/2016 12:46:17 - DEBUG - juramento
+
+15/12/2016 12:46:17 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:17 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:17 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:17 - DEBUG - medrano
+
+15/12/2016 12:46:17 - DEBUG - malabia
+
+15/12/2016 12:46:17 - DEBUG - dorrego
+
+15/12/2016 12:46:17 - DEBUG - tronador
+
+15/12/2016 12:46:17 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:46:17 - DEBUG - catedral
+
+15/12/2016 12:46:17 - DEBUG - tribunales
+
+15/12/2016 12:46:17 - DEBUG - callao
+
+15/12/2016 12:46:17 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:46:17 - DEBUG - pueyrredon
+
+15/12/2016 12:46:17 - DEBUG - medalla milagrosa
+
+15/12/2016 12:46:17 - DEBUG - jose hernandez
+
+15/12/2016 12:46:17 - DEBUG - ministro carranza
+
+15/12/2016 12:46:17 - DEBUG - aguero
+
+15/12/2016 12:46:17 - DEBUG - once
+
+15/12/2016 12:46:17 - DEBUG - La plata
+
+15/12/2016 12:46:17 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:46:17 - DEBUG - aguero
+
+15/12/2016 12:46:17 - DEBUG - parque de los patricios
+
+15/12/2016 12:46:17 - DEBUG - varela
+
+15/12/2016 12:46:17 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:46:17 - DEBUG - los incas
+
+15/12/2016 12:46:17 - DEBUG - bulnes
+
+15/12/2016 12:46:17 - DEBUG - callao
+
+15/12/2016 12:46:17 - DEBUG - belgrano
+
+15/12/2016 12:46:17 - DEBUG - facultad de medicina
+
+15/12/2016 12:46:17 - DEBUG - callao
+
+15/12/2016 12:46:17 - DEBUG - palermo
+
+15/12/2016 12:46:17 - DEBUG - palermo
+
+15/12/2016 12:46:17 - DEBUG - olleros
+
+15/12/2016 12:46:17 - DEBUG - bulnes
+
+15/12/2016 12:46:18 - DEBUG - angel gallardo
+
+15/12/2016 12:46:18 - DEBUG - independencia
+
+15/12/2016 12:46:18 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:18 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:18 - DEBUG - jose hernandez
+
+15/12/2016 12:46:18 - DEBUG - facultad de medicina
+
+15/12/2016 12:46:18 - DEBUG - palermo
+
+15/12/2016 12:46:18 - DEBUG - pueyrredon
+
+15/12/2016 12:46:18 - DEBUG - san jose
+
+15/12/2016 12:46:18 - DEBUG - boedo
+
+15/12/2016 12:46:18 - DEBUG - plaza italia
+
+15/12/2016 12:46:18 - DEBUG - aguero
+
+15/12/2016 12:46:18 - DEBUG - olleros
+
+15/12/2016 12:46:18 - DEBUG - angel gallardo
+
+15/12/2016 12:46:18 - DEBUG - pasteur
+
+15/12/2016 12:46:18 - DEBUG - plaza italia
+
+15/12/2016 12:46:18 - DEBUG - olleros
+
+15/12/2016 12:46:18 - DEBUG - boedo
+
+15/12/2016 12:46:18 - DEBUG - bulnes
+
+15/12/2016 12:46:18 - DEBUG - santa fe
+
+15/12/2016 12:46:18 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:46:18 - DEBUG - pueyrredon
+
+15/12/2016 12:46:18 - DEBUG - angel gallardo
+
+15/12/2016 12:46:18 - DEBUG - los incas
+
+15/12/2016 12:46:18 - DEBUG - las heras
+
+15/12/2016 12:46:18 - DEBUG - entre rios
+
+15/12/2016 12:46:18 - DEBUG - carlos gardel
+
+15/12/2016 12:46:18 - DEBUG - federico lacroze
+
+15/12/2016 12:46:18 - DEBUG - carlos pelegrini
+
+15/12/2016 12:46:18 - DEBUG - echeverria
+
+15/12/2016 12:46:18 - DEBUG - santa fe
+
+15/12/2016 12:46:18 - DEBUG - medrano
+
+15/12/2016 12:46:18 - DEBUG - tribunales
+
+15/12/2016 12:46:18 - DEBUG - 9 de julio
+
+15/12/2016 12:46:18 - DEBUG - las heras
+
+15/12/2016 12:46:18 - DEBUG - parque de los patricios
+
+15/12/2016 12:46:18 - DEBUG - echeverria
+
+15/12/2016 12:46:18 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:18 - DEBUG - plaza italia
+
+15/12/2016 12:46:18 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:18 - DEBUG - leandro n alem
+
+15/12/2016 12:46:18 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:46:18 - DEBUG - dorrego
+
+15/12/2016 12:46:18 - DEBUG - facultad de medicina
+
+15/12/2016 12:46:18 - DEBUG - congreso de tucuman
+
+15/12/2016 12:46:18 - DEBUG - jose maria moreno
+
+15/12/2016 12:46:18 - DEBUG - plaza italia
+
+15/12/2016 12:51:34 - INFO - Database OK
+
+15/12/2016 12:51:34 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:51:48 - DEBUG - 9 de julio
+
+15/12/2016 12:51:48 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:51:48 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:51:48 - DEBUG - federico lacroze
+
+15/12/2016 12:51:48 - DEBUG - bonifacio
+
+15/12/2016 12:51:48 - DEBUG - hospitales
+
+15/12/2016 12:51:48 - DEBUG - caseros
+
+15/12/2016 12:51:48 - DEBUG - inclan
+
+15/12/2016 12:51:48 - DEBUG - catedral
+
+15/12/2016 12:51:48 - DEBUG - humberto primo
+
+15/12/2016 12:51:48 - DEBUG - venezuela
+
+15/12/2016 12:51:48 - DEBUG - once
+
+15/12/2016 12:51:48 - DEBUG - corrientes
+
+15/12/2016 12:51:48 - DEBUG - cordoba
+
+15/12/2016 12:51:48 - DEBUG - cordoba
+
+15/12/2016 12:51:48 - DEBUG - cordoba
+
+15/12/2016 12:51:48 - DEBUG - cordoba
+
+15/12/2016 12:51:48 - DEBUG - santa fe
+
+15/12/2016 12:51:48 - DEBUG - santa fe
+
+15/12/2016 12:51:48 - DEBUG - santa fe
+
+15/12/2016 12:51:48 - DEBUG - santa fe
+
+15/12/2016 12:51:48 - DEBUG - santa fe
+
+15/12/2016 12:51:48 - DEBUG - santa fe
+
+15/12/2016 12:51:48 - DEBUG - las heras
+
+15/12/2016 12:51:48 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:51:48 - DEBUG - bolivar
+
+15/12/2016 12:51:48 - DEBUG - federico lacroze
+
+15/12/2016 12:51:48 - DEBUG - las heras
+
+15/12/2016 12:51:48 - DEBUG - florida
+
+15/12/2016 12:51:48 - DEBUG - federico lacroze
+
+15/12/2016 12:51:48 - DEBUG - jose maria moreno
+
+15/12/2016 12:51:48 - DEBUG - leandro n alem
+
+15/12/2016 12:51:48 - DEBUG - leandro n alem
+
+15/12/2016 12:51:48 - DEBUG - leandro n alem
+
+15/12/2016 12:51:48 - DEBUG - leandro n alem
+
+15/12/2016 12:51:48 - DEBUG - florida
+
+15/12/2016 12:51:48 - DEBUG - florida
+
+15/12/2016 12:51:48 - DEBUG - carlos pelegrini
+
+15/12/2016 12:51:48 - DEBUG - carlos pelegrini
+
+15/12/2016 12:51:48 - DEBUG - carlos pelegrini
+
+15/12/2016 12:51:49 - DEBUG - uruguay
+
+15/12/2016 12:51:49 - DEBUG - uruguay
+
+15/12/2016 12:51:49 - DEBUG - callao
+
+15/12/2016 12:51:49 - DEBUG - callao
+
+15/12/2016 12:51:49 - DEBUG - callao
+
+15/12/2016 12:51:49 - DEBUG - pasteur
+
+15/12/2016 12:51:49 - DEBUG - pasteur
+
+15/12/2016 12:51:49 - DEBUG - pueyrredon
+
+15/12/2016 12:51:49 - DEBUG - pueyrredon
+
+15/12/2016 12:51:49 - DEBUG - carlos gardel
+
+15/12/2016 12:51:49 - DEBUG - carlos gardel
+
+15/12/2016 12:51:49 - DEBUG - medrano
+
+15/12/2016 12:51:49 - DEBUG - medrano
+
+15/12/2016 12:51:49 - DEBUG - medrano
+
+15/12/2016 12:51:49 - DEBUG - angel gallardo
+
+15/12/2016 12:51:49 - DEBUG - angel gallardo
+
+15/12/2016 12:51:49 - DEBUG - malabia
+
+15/12/2016 12:51:49 - DEBUG - malabia
+
+15/12/2016 12:51:49 - DEBUG - malabia
+
+15/12/2016 12:51:49 - DEBUG - dorrego
+
+15/12/2016 12:51:49 - DEBUG - dorrego
+
+15/12/2016 12:51:49 - DEBUG - federico lacroze
+
+15/12/2016 12:51:49 - DEBUG - federico lacroze
+
+15/12/2016 12:51:49 - DEBUG - carlos pelegrini
+
+15/12/2016 12:51:49 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:51:49 - DEBUG - catedral
+
+15/12/2016 12:51:49 - DEBUG - catedral
+
+15/12/2016 12:51:49 - DEBUG - catedral
+
+15/12/2016 12:51:49 - DEBUG - 9 de julio
+
+15/12/2016 12:51:49 - DEBUG - 9 de julio
+
+15/12/2016 12:51:49 - DEBUG - carlos gardel
+
+15/12/2016 12:51:49 - DEBUG - caseros
+
+15/12/2016 12:51:49 - DEBUG - malabia
+
+15/12/2016 12:51:49 - DEBUG - bolivar
+
+15/12/2016 12:51:49 - DEBUG - florida
+
+15/12/2016 12:51:49 - DEBUG - dorrego
+
+15/12/2016 12:51:49 - DEBUG - uruguay
+
+15/12/2016 12:51:49 - DEBUG - los incas
+
+15/12/2016 12:51:49 - DEBUG - florida
+
+15/12/2016 12:51:49 - DEBUG - los incas
+
+15/12/2016 12:51:49 - DEBUG - federico lacroze
+
+15/12/2016 12:51:49 - DEBUG - humberto primo
+
+15/12/2016 12:51:49 - DEBUG - inclan
+
+15/12/2016 12:51:49 - DEBUG - uruguay
+
+15/12/2016 12:51:49 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:51:49 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:51:49 - DEBUG - jujuy
+
+15/12/2016 12:51:49 - DEBUG - tribunales
+
+15/12/2016 12:51:49 - DEBUG - callao
+
+15/12/2016 12:51:49 - DEBUG - callao
+
+15/12/2016 12:51:49 - DEBUG - facultad de medicina
+
+15/12/2016 12:51:49 - DEBUG - pueyrredon
+
+15/12/2016 12:51:49 - DEBUG - pueyrredon
+
+15/12/2016 12:51:49 - DEBUG - aguero
+
+15/12/2016 12:51:49 - DEBUG - bulnes
+
+15/12/2016 12:51:49 - DEBUG - bulnes
+
+15/12/2016 12:51:49 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:51:49 - DEBUG - juramento
+
+15/12/2016 12:51:49 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:51:49 - DEBUG - plaza italia
+
+15/12/2016 12:51:49 - DEBUG - plaza italia
+
+15/12/2016 12:51:49 - DEBUG - catedral
+
+15/12/2016 12:51:49 - DEBUG - bolivar
+
+15/12/2016 12:51:49 - DEBUG - independencia
+
+15/12/2016 12:51:49 - DEBUG - entre rios
+
+15/12/2016 12:51:49 - DEBUG - pichincha
+
+15/12/2016 12:51:49 - DEBUG - urquiza
+
+15/12/2016 12:51:49 - DEBUG - La plata
+
+15/12/2016 12:51:49 - DEBUG - emilio mitre
+
+15/12/2016 12:51:49 - DEBUG - palermo
+
+15/12/2016 12:51:49 - DEBUG - ministro carranza
+
+15/12/2016 12:51:49 - DEBUG - ministro carranza
+
+15/12/2016 12:51:49 - DEBUG - olleros
+
+15/12/2016 12:51:49 - DEBUG - jose hernandez
+
+15/12/2016 12:51:49 - DEBUG - jose hernandez
+
+15/12/2016 12:51:49 - DEBUG - juramento
+
+15/12/2016 12:51:49 - DEBUG - juramento
+
+15/12/2016 12:51:49 - DEBUG - juramento
+
+15/12/2016 12:51:49 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:49 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:49 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:49 - DEBUG - medrano
+
+15/12/2016 12:51:49 - DEBUG - malabia
+
+15/12/2016 12:51:49 - DEBUG - dorrego
+
+15/12/2016 12:51:49 - DEBUG - tronador
+
+15/12/2016 12:51:49 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:51:49 - DEBUG - catedral
+
+15/12/2016 12:51:49 - DEBUG - tribunales
+
+15/12/2016 12:51:49 - DEBUG - callao
+
+15/12/2016 12:51:49 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:51:49 - DEBUG - pueyrredon
+
+15/12/2016 12:51:49 - DEBUG - medalla milagrosa
+
+15/12/2016 12:51:49 - DEBUG - jose hernandez
+
+15/12/2016 12:51:49 - DEBUG - ministro carranza
+
+15/12/2016 12:51:49 - DEBUG - aguero
+
+15/12/2016 12:51:49 - DEBUG - once
+
+15/12/2016 12:51:49 - DEBUG - La plata
+
+15/12/2016 12:51:49 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:51:49 - DEBUG - aguero
+
+15/12/2016 12:51:50 - DEBUG - parque de los patricios
+
+15/12/2016 12:51:50 - DEBUG - varela
+
+15/12/2016 12:51:50 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:51:50 - DEBUG - los incas
+
+15/12/2016 12:51:50 - DEBUG - bulnes
+
+15/12/2016 12:51:50 - DEBUG - callao
+
+15/12/2016 12:51:50 - DEBUG - belgrano
+
+15/12/2016 12:51:50 - DEBUG - facultad de medicina
+
+15/12/2016 12:51:50 - DEBUG - callao
+
+15/12/2016 12:51:50 - DEBUG - palermo
+
+15/12/2016 12:51:50 - DEBUG - palermo
+
+15/12/2016 12:51:50 - DEBUG - olleros
+
+15/12/2016 12:51:50 - DEBUG - bulnes
+
+15/12/2016 12:51:50 - DEBUG - angel gallardo
+
+15/12/2016 12:51:50 - DEBUG - independencia
+
+15/12/2016 12:51:50 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:50 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:50 - DEBUG - jose hernandez
+
+15/12/2016 12:51:50 - DEBUG - facultad de medicina
+
+15/12/2016 12:51:50 - DEBUG - palermo
+
+15/12/2016 12:51:50 - DEBUG - pueyrredon
+
+15/12/2016 12:51:50 - DEBUG - san jose
+
+15/12/2016 12:51:50 - DEBUG - boedo
+
+15/12/2016 12:51:50 - DEBUG - plaza italia
+
+15/12/2016 12:51:50 - DEBUG - aguero
+
+15/12/2016 12:51:50 - DEBUG - olleros
+
+15/12/2016 12:51:50 - DEBUG - angel gallardo
+
+15/12/2016 12:51:50 - DEBUG - pasteur
+
+15/12/2016 12:51:50 - DEBUG - plaza italia
+
+15/12/2016 12:51:50 - DEBUG - olleros
+
+15/12/2016 12:51:50 - DEBUG - boedo
+
+15/12/2016 12:51:50 - DEBUG - bulnes
+
+15/12/2016 12:51:50 - DEBUG - santa fe
+
+15/12/2016 12:51:50 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:51:50 - DEBUG - pueyrredon
+
+15/12/2016 12:51:50 - DEBUG - angel gallardo
+
+15/12/2016 12:51:50 - DEBUG - los incas
+
+15/12/2016 12:51:50 - DEBUG - las heras
+
+15/12/2016 12:51:50 - DEBUG - entre rios
+
+15/12/2016 12:51:50 - DEBUG - carlos gardel
+
+15/12/2016 12:51:50 - DEBUG - federico lacroze
+
+15/12/2016 12:51:50 - DEBUG - carlos pelegrini
+
+15/12/2016 12:51:50 - DEBUG - echeverria
+
+15/12/2016 12:51:50 - DEBUG - santa fe
+
+15/12/2016 12:51:50 - DEBUG - medrano
+
+15/12/2016 12:51:50 - DEBUG - tribunales
+
+15/12/2016 12:51:50 - DEBUG - 9 de julio
+
+15/12/2016 12:51:50 - DEBUG - las heras
+
+15/12/2016 12:51:50 - DEBUG - parque de los patricios
+
+15/12/2016 12:51:50 - DEBUG - echeverria
+
+15/12/2016 12:51:50 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:50 - DEBUG - plaza italia
+
+15/12/2016 12:51:50 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:50 - DEBUG - leandro n alem
+
+15/12/2016 12:51:50 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:51:50 - DEBUG - dorrego
+
+15/12/2016 12:51:50 - DEBUG - facultad de medicina
+
+15/12/2016 12:51:50 - DEBUG - congreso de tucuman
+
+15/12/2016 12:51:50 - DEBUG - jose maria moreno
+
+15/12/2016 12:51:50 - DEBUG - plaza italia
+
+15/12/2016 12:52:33 - INFO - Database OK
+
+15/12/2016 12:52:33 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:53:40 - INFO - Database OK
+
+15/12/2016 12:53:40 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:53:47 - DEBUG - 9 de julio
+
+15/12/2016 12:53:47 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:53:47 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:53:47 - DEBUG - federico lacroze
+
+15/12/2016 12:53:47 - DEBUG - bonifacio
+
+15/12/2016 12:53:47 - DEBUG - hospitales
+
+15/12/2016 12:53:47 - DEBUG - caseros
+
+15/12/2016 12:53:47 - DEBUG - inclan
+
+15/12/2016 12:53:47 - DEBUG - catedral
+
+15/12/2016 12:53:47 - DEBUG - humberto primo
+
+15/12/2016 12:53:47 - DEBUG - venezuela
+
+15/12/2016 12:53:47 - DEBUG - once
+
+15/12/2016 12:53:47 - DEBUG - corrientes
+
+15/12/2016 12:53:47 - DEBUG - cordoba
+
+15/12/2016 12:53:47 - DEBUG - cordoba
+
+15/12/2016 12:53:47 - DEBUG - cordoba
+
+15/12/2016 12:53:47 - DEBUG - cordoba
+
+15/12/2016 12:53:47 - DEBUG - santa fe
+
+15/12/2016 12:53:47 - DEBUG - santa fe
+
+15/12/2016 12:53:47 - DEBUG - santa fe
+
+15/12/2016 12:53:47 - DEBUG - santa fe
+
+15/12/2016 12:53:47 - DEBUG - santa fe
+
+15/12/2016 12:53:47 - DEBUG - santa fe
+
+15/12/2016 12:53:47 - DEBUG - las heras
+
+15/12/2016 12:53:47 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:53:47 - DEBUG - bolivar
+
+15/12/2016 12:53:47 - DEBUG - federico lacroze
+
+15/12/2016 12:53:47 - DEBUG - las heras
+
+15/12/2016 12:53:47 - DEBUG - florida
+
+15/12/2016 12:53:47 - DEBUG - federico lacroze
+
+15/12/2016 12:53:47 - DEBUG - jose maria moreno
+
+15/12/2016 12:53:47 - DEBUG - leandro n alem
+
+15/12/2016 12:53:47 - DEBUG - leandro n alem
+
+15/12/2016 12:53:47 - DEBUG - leandro n alem
+
+15/12/2016 12:53:47 - DEBUG - leandro n alem
+
+15/12/2016 12:53:47 - DEBUG - florida
+
+15/12/2016 12:53:47 - DEBUG - florida
+
+15/12/2016 12:53:47 - DEBUG - carlos pelegrini
+
+15/12/2016 12:53:47 - DEBUG - carlos pelegrini
+
+15/12/2016 12:53:47 - DEBUG - carlos pelegrini
+
+15/12/2016 12:53:47 - DEBUG - uruguay
+
+15/12/2016 12:53:47 - DEBUG - uruguay
+
+15/12/2016 12:53:47 - DEBUG - callao
+
+15/12/2016 12:53:47 - DEBUG - callao
+
+15/12/2016 12:53:47 - DEBUG - callao
+
+15/12/2016 12:53:47 - DEBUG - pasteur
+
+15/12/2016 12:53:47 - DEBUG - pasteur
+
+15/12/2016 12:53:47 - DEBUG - pueyrredon
+
+15/12/2016 12:53:47 - DEBUG - pueyrredon
+
+15/12/2016 12:53:47 - DEBUG - carlos gardel
+
+15/12/2016 12:53:47 - DEBUG - carlos gardel
+
+15/12/2016 12:53:47 - DEBUG - medrano
+
+15/12/2016 12:53:47 - DEBUG - medrano
+
+15/12/2016 12:53:47 - DEBUG - medrano
+
+15/12/2016 12:53:47 - DEBUG - angel gallardo
+
+15/12/2016 12:53:47 - DEBUG - angel gallardo
+
+15/12/2016 12:53:47 - DEBUG - malabia
+
+15/12/2016 12:53:47 - DEBUG - malabia
+
+15/12/2016 12:53:47 - DEBUG - malabia
+
+15/12/2016 12:53:47 - DEBUG - dorrego
+
+15/12/2016 12:53:47 - DEBUG - dorrego
+
+15/12/2016 12:53:47 - DEBUG - federico lacroze
+
+15/12/2016 12:53:47 - DEBUG - federico lacroze
+
+15/12/2016 12:53:47 - DEBUG - carlos pelegrini
+
+15/12/2016 12:53:47 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:53:47 - DEBUG - catedral
+
+15/12/2016 12:53:47 - DEBUG - catedral
+
+15/12/2016 12:53:47 - DEBUG - catedral
+
+15/12/2016 12:53:47 - DEBUG - 9 de julio
+
+15/12/2016 12:53:47 - DEBUG - 9 de julio
+
+15/12/2016 12:53:47 - DEBUG - carlos gardel
+
+15/12/2016 12:53:48 - DEBUG - caseros
+
+15/12/2016 12:53:48 - DEBUG - malabia
+
+15/12/2016 12:53:48 - DEBUG - bolivar
+
+15/12/2016 12:53:48 - DEBUG - florida
+
+15/12/2016 12:53:48 - DEBUG - dorrego
+
+15/12/2016 12:53:48 - DEBUG - uruguay
+
+15/12/2016 12:53:48 - DEBUG - los incas
+
+15/12/2016 12:53:48 - DEBUG - florida
+
+15/12/2016 12:53:48 - DEBUG - los incas
+
+15/12/2016 12:53:48 - DEBUG - federico lacroze
+
+15/12/2016 12:53:48 - DEBUG - humberto primo
+
+15/12/2016 12:53:48 - DEBUG - inclan
+
+15/12/2016 12:53:48 - DEBUG - uruguay
+
+15/12/2016 12:53:48 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:53:48 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:53:48 - DEBUG - jujuy
+
+15/12/2016 12:53:48 - DEBUG - tribunales
+
+15/12/2016 12:53:48 - DEBUG - callao
+
+15/12/2016 12:53:48 - DEBUG - callao
+
+15/12/2016 12:53:48 - DEBUG - facultad de medicina
+
+15/12/2016 12:53:48 - DEBUG - pueyrredon
+
+15/12/2016 12:53:48 - DEBUG - pueyrredon
+
+15/12/2016 12:53:48 - DEBUG - aguero
+
+15/12/2016 12:53:48 - DEBUG - bulnes
+
+15/12/2016 12:53:48 - DEBUG - bulnes
+
+15/12/2016 12:53:48 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:53:48 - DEBUG - juramento
+
+15/12/2016 12:53:48 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:53:48 - DEBUG - plaza italia
+
+15/12/2016 12:53:48 - DEBUG - plaza italia
+
+15/12/2016 12:53:48 - DEBUG - catedral
+
+15/12/2016 12:53:48 - DEBUG - bolivar
+
+15/12/2016 12:53:48 - DEBUG - independencia
+
+15/12/2016 12:53:48 - DEBUG - entre rios
+
+15/12/2016 12:53:48 - DEBUG - pichincha
+
+15/12/2016 12:53:48 - DEBUG - urquiza
+
+15/12/2016 12:53:48 - DEBUG - La plata
+
+15/12/2016 12:53:48 - DEBUG - emilio mitre
+
+15/12/2016 12:53:48 - DEBUG - palermo
+
+15/12/2016 12:53:48 - DEBUG - ministro carranza
+
+15/12/2016 12:53:48 - DEBUG - ministro carranza
+
+15/12/2016 12:53:48 - DEBUG - olleros
+
+15/12/2016 12:53:48 - DEBUG - jose hernandez
+
+15/12/2016 12:53:48 - DEBUG - jose hernandez
+
+15/12/2016 12:53:48 - DEBUG - juramento
+
+15/12/2016 12:53:48 - DEBUG - juramento
+
+15/12/2016 12:53:48 - DEBUG - juramento
+
+15/12/2016 12:53:48 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:48 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:48 - DEBUG - medrano
+
+15/12/2016 12:53:48 - DEBUG - malabia
+
+15/12/2016 12:53:48 - DEBUG - dorrego
+
+15/12/2016 12:53:48 - DEBUG - tronador
+
+15/12/2016 12:53:48 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:53:48 - DEBUG - catedral
+
+15/12/2016 12:53:48 - DEBUG - tribunales
+
+15/12/2016 12:53:48 - DEBUG - callao
+
+15/12/2016 12:53:48 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:53:48 - DEBUG - pueyrredon
+
+15/12/2016 12:53:48 - DEBUG - medalla milagrosa
+
+15/12/2016 12:53:48 - DEBUG - jose hernandez
+
+15/12/2016 12:53:48 - DEBUG - ministro carranza
+
+15/12/2016 12:53:48 - DEBUG - aguero
+
+15/12/2016 12:53:48 - DEBUG - once
+
+15/12/2016 12:53:48 - DEBUG - La plata
+
+15/12/2016 12:53:48 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:53:48 - DEBUG - aguero
+
+15/12/2016 12:53:48 - DEBUG - parque de los patricios
+
+15/12/2016 12:53:48 - DEBUG - varela
+
+15/12/2016 12:53:48 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:53:48 - DEBUG - los incas
+
+15/12/2016 12:53:48 - DEBUG - bulnes
+
+15/12/2016 12:53:48 - DEBUG - callao
+
+15/12/2016 12:53:48 - DEBUG - belgrano
+
+15/12/2016 12:53:48 - DEBUG - facultad de medicina
+
+15/12/2016 12:53:48 - DEBUG - callao
+
+15/12/2016 12:53:48 - DEBUG - palermo
+
+15/12/2016 12:53:48 - DEBUG - palermo
+
+15/12/2016 12:53:48 - DEBUG - olleros
+
+15/12/2016 12:53:48 - DEBUG - bulnes
+
+15/12/2016 12:53:48 - DEBUG - angel gallardo
+
+15/12/2016 12:53:48 - DEBUG - independencia
+
+15/12/2016 12:53:48 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:48 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:48 - DEBUG - jose hernandez
+
+15/12/2016 12:53:48 - DEBUG - facultad de medicina
+
+15/12/2016 12:53:48 - DEBUG - palermo
+
+15/12/2016 12:53:48 - DEBUG - pueyrredon
+
+15/12/2016 12:53:48 - DEBUG - san jose
+
+15/12/2016 12:53:48 - DEBUG - boedo
+
+15/12/2016 12:53:48 - DEBUG - plaza italia
+
+15/12/2016 12:53:48 - DEBUG - aguero
+
+15/12/2016 12:53:48 - DEBUG - olleros
+
+15/12/2016 12:53:48 - DEBUG - angel gallardo
+
+15/12/2016 12:53:48 - DEBUG - pasteur
+
+15/12/2016 12:53:48 - DEBUG - plaza italia
+
+15/12/2016 12:53:48 - DEBUG - olleros
+
+15/12/2016 12:53:48 - DEBUG - boedo
+
+15/12/2016 12:53:48 - DEBUG - bulnes
+
+15/12/2016 12:53:48 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:48 - DEBUG - las heras
+
+15/12/2016 12:53:48 - DEBUG - parque de los patricios
+
+15/12/2016 12:53:48 - DEBUG - echeverria
+
+15/12/2016 12:53:48 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:48 - DEBUG - plaza italia
+
+15/12/2016 12:53:48 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:49 - DEBUG - leandro n alem
+
+15/12/2016 12:53:49 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:53:49 - DEBUG - dorrego
+
+15/12/2016 12:53:49 - DEBUG - facultad de medicina
+
+15/12/2016 12:53:49 - DEBUG - congreso de tucuman
+
+15/12/2016 12:53:49 - DEBUG - jose maria moreno
+
+15/12/2016 12:53:49 - DEBUG - plaza italia
+
+15/12/2016 12:53:49 - DEBUG - santa fe
+
+15/12/2016 12:53:49 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:53:49 - DEBUG - pueyrredon
+
+15/12/2016 12:53:49 - DEBUG - angel gallardo
+
+15/12/2016 12:53:49 - DEBUG - los incas
+
+15/12/2016 12:53:49 - DEBUG - las heras
+
+15/12/2016 12:53:49 - DEBUG - entre rios
+
+15/12/2016 12:53:49 - DEBUG - carlos gardel
+
+15/12/2016 12:53:49 - DEBUG - federico lacroze
+
+15/12/2016 12:53:49 - DEBUG - carlos pelegrini
+
+15/12/2016 12:53:49 - DEBUG - echeverria
+
+15/12/2016 12:53:49 - DEBUG - santa fe
+
+15/12/2016 12:53:49 - DEBUG - medrano
+
+15/12/2016 12:53:49 - DEBUG - tribunales
+
+15/12/2016 12:53:49 - DEBUG - 9 de julio
+
+15/12/2016 12:54:26 - INFO - Database OK
+
+15/12/2016 12:54:26 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 12:54:37 - DEBUG - 9 de julio
+
+15/12/2016 12:54:37 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:54:37 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:54:37 - DEBUG - federico lacroze
+
+15/12/2016 12:54:37 - DEBUG - bonifacio
+
+15/12/2016 12:54:37 - DEBUG - hospitales
+
+15/12/2016 12:54:37 - DEBUG - caseros
+
+15/12/2016 12:54:37 - DEBUG - inclan
+
+15/12/2016 12:54:37 - DEBUG - catedral
+
+15/12/2016 12:54:37 - DEBUG - humberto primo
+
+15/12/2016 12:54:37 - DEBUG - venezuela
+
+15/12/2016 12:54:37 - DEBUG - once
+
+15/12/2016 12:54:37 - DEBUG - corrientes
+
+15/12/2016 12:54:37 - DEBUG - cordoba
+
+15/12/2016 12:54:37 - DEBUG - cordoba
+
+15/12/2016 12:54:37 - DEBUG - cordoba
+
+15/12/2016 12:54:37 - DEBUG - cordoba
+
+15/12/2016 12:54:37 - DEBUG - santa fe
+
+15/12/2016 12:54:37 - DEBUG - santa fe
+
+15/12/2016 12:54:37 - DEBUG - santa fe
+
+15/12/2016 12:54:37 - DEBUG - santa fe
+
+15/12/2016 12:54:37 - DEBUG - santa fe
+
+15/12/2016 12:54:37 - DEBUG - santa fe
+
+15/12/2016 12:54:37 - DEBUG - las heras
+
+15/12/2016 12:54:37 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:54:37 - DEBUG - bolivar
+
+15/12/2016 12:54:37 - DEBUG - federico lacroze
+
+15/12/2016 12:54:37 - DEBUG - las heras
+
+15/12/2016 12:54:37 - DEBUG - florida
+
+15/12/2016 12:54:37 - DEBUG - federico lacroze
+
+15/12/2016 12:54:37 - DEBUG - jose maria moreno
+
+15/12/2016 12:54:37 - DEBUG - leandro n alem
+
+15/12/2016 12:54:37 - DEBUG - leandro n alem
+
+15/12/2016 12:54:37 - DEBUG - leandro n alem
+
+15/12/2016 12:54:37 - DEBUG - leandro n alem
+
+15/12/2016 12:54:37 - DEBUG - florida
+
+15/12/2016 12:54:37 - DEBUG - florida
+
+15/12/2016 12:54:37 - DEBUG - carlos pelegrini
+
+15/12/2016 12:54:37 - DEBUG - carlos pelegrini
+
+15/12/2016 12:54:37 - DEBUG - carlos pelegrini
+
+15/12/2016 12:54:37 - DEBUG - uruguay
+
+15/12/2016 12:54:37 - DEBUG - uruguay
+
+15/12/2016 12:54:37 - DEBUG - callao
+
+15/12/2016 12:54:37 - DEBUG - callao
+
+15/12/2016 12:54:37 - DEBUG - callao
+
+15/12/2016 12:54:37 - DEBUG - pasteur
+
+15/12/2016 12:54:37 - DEBUG - pasteur
+
+15/12/2016 12:54:37 - DEBUG - pueyrredon
+
+15/12/2016 12:54:37 - DEBUG - pueyrredon
+
+15/12/2016 12:54:37 - DEBUG - carlos gardel
+
+15/12/2016 12:54:37 - DEBUG - carlos gardel
+
+15/12/2016 12:54:37 - DEBUG - medrano
+
+15/12/2016 12:54:37 - DEBUG - medrano
+
+15/12/2016 12:54:37 - DEBUG - medrano
+
+15/12/2016 12:54:37 - DEBUG - angel gallardo
+
+15/12/2016 12:54:37 - DEBUG - angel gallardo
+
+15/12/2016 12:54:37 - DEBUG - malabia
+
+15/12/2016 12:54:37 - DEBUG - malabia
+
+15/12/2016 12:54:37 - DEBUG - malabia
+
+15/12/2016 12:54:37 - DEBUG - dorrego
+
+15/12/2016 12:54:37 - DEBUG - dorrego
+
+15/12/2016 12:54:37 - DEBUG - federico lacroze
+
+15/12/2016 12:54:37 - DEBUG - federico lacroze
+
+15/12/2016 12:54:37 - DEBUG - carlos pelegrini
+
+15/12/2016 12:54:37 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:54:37 - DEBUG - catedral
+
+15/12/2016 12:54:37 - DEBUG - catedral
+
+15/12/2016 12:54:37 - DEBUG - catedral
+
+15/12/2016 12:54:37 - DEBUG - 9 de julio
+
+15/12/2016 12:54:37 - DEBUG - 9 de julio
+
+15/12/2016 12:54:37 - DEBUG - carlos gardel
+
+15/12/2016 12:54:37 - DEBUG - caseros
+
+15/12/2016 12:54:37 - DEBUG - malabia
+
+15/12/2016 12:54:37 - DEBUG - bolivar
+
+15/12/2016 12:54:37 - DEBUG - florida
+
+15/12/2016 12:54:37 - DEBUG - dorrego
+
+15/12/2016 12:54:37 - DEBUG - uruguay
+
+15/12/2016 12:54:37 - DEBUG - los incas
+
+15/12/2016 12:54:37 - DEBUG - florida
+
+15/12/2016 12:54:37 - DEBUG - los incas
+
+15/12/2016 12:54:37 - DEBUG - federico lacroze
+
+15/12/2016 12:54:37 - DEBUG - humberto primo
+
+15/12/2016 12:54:37 - DEBUG - inclan
+
+15/12/2016 12:54:37 - DEBUG - uruguay
+
+15/12/2016 12:54:37 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:54:37 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:54:37 - DEBUG - jujuy
+
+15/12/2016 12:54:37 - DEBUG - tribunales
+
+15/12/2016 12:54:38 - DEBUG - callao
+
+15/12/2016 12:54:38 - DEBUG - callao
+
+15/12/2016 12:54:38 - DEBUG - facultad de medicina
+
+15/12/2016 12:54:38 - DEBUG - pueyrredon
+
+15/12/2016 12:54:38 - DEBUG - pueyrredon
+
+15/12/2016 12:54:38 - DEBUG - aguero
+
+15/12/2016 12:54:38 - DEBUG - bulnes
+
+15/12/2016 12:54:38 - DEBUG - bulnes
+
+15/12/2016 12:54:38 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:54:38 - DEBUG - juramento
+
+15/12/2016 12:54:38 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:54:38 - DEBUG - plaza italia
+
+15/12/2016 12:54:38 - DEBUG - plaza italia
+
+15/12/2016 12:54:38 - DEBUG - catedral
+
+15/12/2016 12:54:38 - DEBUG - bolivar
+
+15/12/2016 12:54:38 - DEBUG - independencia
+
+15/12/2016 12:54:38 - DEBUG - entre rios
+
+15/12/2016 12:54:38 - DEBUG - pichincha
+
+15/12/2016 12:54:38 - DEBUG - urquiza
+
+15/12/2016 12:54:38 - DEBUG - La plata
+
+15/12/2016 12:54:38 - DEBUG - emilio mitre
+
+15/12/2016 12:54:38 - DEBUG - palermo
+
+15/12/2016 12:54:38 - DEBUG - ministro carranza
+
+15/12/2016 12:54:38 - DEBUG - ministro carranza
+
+15/12/2016 12:54:38 - DEBUG - olleros
+
+15/12/2016 12:54:38 - DEBUG - jose hernandez
+
+15/12/2016 12:54:38 - DEBUG - jose hernandez
+
+15/12/2016 12:54:38 - DEBUG - juramento
+
+15/12/2016 12:54:38 - DEBUG - juramento
+
+15/12/2016 12:54:38 - DEBUG - juramento
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - medrano
+
+15/12/2016 12:54:38 - DEBUG - malabia
+
+15/12/2016 12:54:38 - DEBUG - dorrego
+
+15/12/2016 12:54:38 - DEBUG - tronador
+
+15/12/2016 12:54:38 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:54:38 - DEBUG - catedral
+
+15/12/2016 12:54:38 - DEBUG - tribunales
+
+15/12/2016 12:54:38 - DEBUG - callao
+
+15/12/2016 12:54:38 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:54:38 - DEBUG - pueyrredon
+
+15/12/2016 12:54:38 - DEBUG - medalla milagrosa
+
+15/12/2016 12:54:38 - DEBUG - jose hernandez
+
+15/12/2016 12:54:38 - DEBUG - ministro carranza
+
+15/12/2016 12:54:38 - DEBUG - aguero
+
+15/12/2016 12:54:38 - DEBUG - once
+
+15/12/2016 12:54:38 - DEBUG - La plata
+
+15/12/2016 12:54:38 - DEBUG - scalabrini ortiz
+
+15/12/2016 12:54:38 - DEBUG - aguero
+
+15/12/2016 12:54:38 - DEBUG - parque de los patricios
+
+15/12/2016 12:54:38 - DEBUG - varela
+
+15/12/2016 12:54:38 - DEBUG - juan manuel de rosas
+
+15/12/2016 12:54:38 - DEBUG - los incas
+
+15/12/2016 12:54:38 - DEBUG - bulnes
+
+15/12/2016 12:54:38 - DEBUG - callao
+
+15/12/2016 12:54:38 - DEBUG - belgrano
+
+15/12/2016 12:54:38 - DEBUG - facultad de medicina
+
+15/12/2016 12:54:38 - DEBUG - callao
+
+15/12/2016 12:54:38 - DEBUG - palermo
+
+15/12/2016 12:54:38 - DEBUG - palermo
+
+15/12/2016 12:54:38 - DEBUG - olleros
+
+15/12/2016 12:54:38 - DEBUG - bulnes
+
+15/12/2016 12:54:38 - DEBUG - angel gallardo
+
+15/12/2016 12:54:38 - DEBUG - independencia
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - jose hernandez
+
+15/12/2016 12:54:38 - DEBUG - facultad de medicina
+
+15/12/2016 12:54:38 - DEBUG - palermo
+
+15/12/2016 12:54:38 - DEBUG - pueyrredon
+
+15/12/2016 12:54:38 - DEBUG - san jose
+
+15/12/2016 12:54:38 - DEBUG - boedo
+
+15/12/2016 12:54:38 - DEBUG - plaza italia
+
+15/12/2016 12:54:38 - DEBUG - aguero
+
+15/12/2016 12:54:38 - DEBUG - olleros
+
+15/12/2016 12:54:38 - DEBUG - angel gallardo
+
+15/12/2016 12:54:38 - DEBUG - pasteur
+
+15/12/2016 12:54:38 - DEBUG - plaza italia
+
+15/12/2016 12:54:38 - DEBUG - olleros
+
+15/12/2016 12:54:38 - DEBUG - boedo
+
+15/12/2016 12:54:38 - DEBUG - bulnes
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - las heras
+
+15/12/2016 12:54:38 - DEBUG - parque de los patricios
+
+15/12/2016 12:54:38 - DEBUG - echeverria
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - plaza italia
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - leandro n alem
+
+15/12/2016 12:54:38 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:54:38 - DEBUG - dorrego
+
+15/12/2016 12:54:38 - DEBUG - facultad de medicina
+
+15/12/2016 12:54:38 - DEBUG - congreso de tucuman
+
+15/12/2016 12:54:38 - DEBUG - jose maria moreno
+
+15/12/2016 12:54:38 - DEBUG - plaza italia
+
+15/12/2016 12:54:38 - DEBUG - santa fe
+
+15/12/2016 12:54:38 - DEBUG - plaza de los virreyes
+
+15/12/2016 12:54:39 - DEBUG - pueyrredon
+
+15/12/2016 12:54:39 - DEBUG - angel gallardo
+
+15/12/2016 12:54:39 - DEBUG - los incas
+
+15/12/2016 12:54:39 - DEBUG - las heras
+
+15/12/2016 12:54:39 - DEBUG - entre rios
+
+15/12/2016 12:54:39 - DEBUG - carlos gardel
+
+15/12/2016 12:54:39 - DEBUG - federico lacroze
+
+15/12/2016 12:54:39 - DEBUG - carlos pelegrini
+
+15/12/2016 12:54:39 - DEBUG - echeverria
+
+15/12/2016 12:54:39 - DEBUG - santa fe
+
+15/12/2016 12:54:39 - DEBUG - medrano
+
+15/12/2016 12:54:39 - DEBUG - tribunales
+
+15/12/2016 12:54:39 - DEBUG - 9 de julio
+
+15/12/2016 13:04:47 - DEBUG - NO ME PUDE CENCTAR A LA BASE DE DATOS!
+
+15/12/2016 13:04:47 - INFO - ERROR DATABASE
+
+15/12/2016 13:04:53 - INFO - Database OK
+
+15/12/2016 13:04:53 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:06:56 - INFO - Database OK
+
+15/12/2016 13:06:56 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:07:55 - INFO - Database OK
+
+15/12/2016 13:07:55 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:08:55 - INFO - Database OK
+
+15/12/2016 13:08:55 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:09:57 - INFO - Database OK
+
+15/12/2016 13:09:57 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:10:58 - INFO - Database OK
+
+15/12/2016 13:10:58 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:11:57 - INFO - Database OK
+
+15/12/2016 13:11:57 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:12:57 - INFO - Database OK
+
+15/12/2016 13:12:57 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:13:57 - INFO - Database OK
+
+15/12/2016 13:13:57 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:15:06 - INFO - Database OK
+
+15/12/2016 13:15:06 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:20:25 - INFO - Database OK
+
+15/12/2016 13:20:25 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:21:24 - INFO - Database OK
+
+15/12/2016 13:21:24 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:22:24 - INFO - Database OK
+
+15/12/2016 13:22:24 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 13:24:18 - INFO - Database OK
+
+15/12/2016 13:24:18 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:12:16 - INFO - Database OK
+
+15/12/2016 14:12:16 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:22:19 - INFO - Database OK
+
+15/12/2016 14:22:19 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:23:19 - INFO - Database OK
+
+15/12/2016 14:23:19 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:24:19 - INFO - Database OK
+
+15/12/2016 14:24:19 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:25:19 - INFO - Database OK
+
+15/12/2016 14:25:19 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:26:19 - INFO - Database OK
+
+15/12/2016 14:26:19 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:27:19 - INFO - Database OK
+
+15/12/2016 14:27:19 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:43:12 - INFO - Database OK
+
+15/12/2016 14:43:12 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:45:09 - INFO - Database OK
+
+15/12/2016 14:45:09 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:47:01 - INFO - Database OK
+
+15/12/2016 14:47:01 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:47:46 - INFO - Database OK
+
+15/12/2016 14:47:46 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:48:10 - INFO - Database OK
+
+15/12/2016 14:48:10 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:48:58 - INFO - Database OK
+
+15/12/2016 14:48:58 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:49:49 - INFO - Database OK
+
+15/12/2016 14:49:49 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:50:49 - INFO - Database OK
+
+15/12/2016 14:50:49 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:51:49 - INFO - Database OK
+
+15/12/2016 14:51:49 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:52:49 - INFO - Database OK
+
+15/12/2016 14:52:49 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:53:49 - INFO - Database OK
+
+15/12/2016 14:53:49 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:54:49 - INFO - Database OK
+
+15/12/2016 14:54:49 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:55:11 - INFO - Database OK
+
+15/12/2016 14:55:11 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:55:44 - INFO - Database OK
+
+15/12/2016 14:55:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:56:18 - INFO - Database OK
+
+15/12/2016 14:56:18 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:57:04 - INFO - Database OK
+
+15/12/2016 14:57:04 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:57:55 - INFO - Database OK
+
+15/12/2016 14:57:55 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:58:44 - INFO - Database OK
+
+15/12/2016 14:58:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 14:59:44 - INFO - Database OK
+
+15/12/2016 14:59:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:00:44 - INFO - Database OK
+
+15/12/2016 15:00:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:01:44 - INFO - Database OK
+
+15/12/2016 15:01:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:02:44 - INFO - Database OK
+
+15/12/2016 15:02:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:03:44 - INFO - Database OK
+
+15/12/2016 15:03:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:04:44 - INFO - Database OK
+
+15/12/2016 15:04:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:05:44 - INFO - Database OK
+
+15/12/2016 15:05:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:06:44 - INFO - Database OK
+
+15/12/2016 15:06:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:07:44 - INFO - Database OK
+
+15/12/2016 15:07:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:08:44 - INFO - Database OK
+
+15/12/2016 15:08:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:09:44 - INFO - Database OK
+
+15/12/2016 15:09:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:10:44 - INFO - Database OK
+
+15/12/2016 15:10:44 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:11:50 - DEBUG - NO ME PUDE CENCTAR A LA BASE DE DATOS!
+
+15/12/2016 15:11:50 - INFO - ERROR DATABASE
+
+15/12/2016 15:12:23 - INFO - Database OK
+
+15/12/2016 15:12:23 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:13:22 - INFO - Database OK
+
+15/12/2016 15:13:22 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:14:22 - INFO - Database OK
+
+15/12/2016 15:14:22 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:15:22 - INFO - Database OK
+
+15/12/2016 15:15:22 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
+15/12/2016 15:22:38 - INFO - Database OK
+
+15/12/2016 15:22:38 - DEBUG - ME CONECTE BIEN A LA BASE DE DATOS!
+
