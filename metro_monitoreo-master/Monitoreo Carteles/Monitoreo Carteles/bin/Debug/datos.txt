@@ -1,0 +1,90 @@
+A:
+San Pedrito
+Flores
+Carabobo
+Puan
+Primera Junta
+Acoyte
+Rio de Janeiro
+Castro Barros
+Loria
+Miserere
+Alberti Pasco
+Congreso
+Saez Penna
+Lima
+Piedras
+Peru
+Plaza Mayo
+B:
+Juan Manuel de Rosas
+Echeverria
+Los Incas
+Tronador
+Federico Lacroze
+Dorrego
+Malabia
+Angel Gallardo
+Medrano
+Carlos Gardel
+Pueyrredon
+Pasteur
+Callao
+Uruguay
+Carlos Pellegrini
+Florida
+Leandro n Alem
+C:
+Constitucion
+San Juan
+Independencia
+Moreno
+Av de Mayo
+Diagonal Norte
+Lavalle
+San Martin
+Retiro
+D:
+Catedral
+9 de Julio
+Tribunales
+Callao
+Facultad de Medicina
+Pueyredon
+Aguero
+Bulnes
+Scalabrini Ortiz
+Plaza Italia
+Palermo
+Carranza
+Olleros
+Hernandez
+Juramento
+Congreso Tucuman
+E:
+Bolivar
+Belgrano
+Independencia
+San Jose
+Entre Rios
+Pichincha
+Jujuy
+Urquiza
+Boedo
+La Plata
+Moreno
+Emilio Mitre
+Bonifacio
+Medalla
+Varela
+Virreyes
+H:
+Hospitales
+Caseros
+Inclan
+Humberto Primo
+Venezuel
+Once
+Corrientes
+Cordoba
+Las Heras
