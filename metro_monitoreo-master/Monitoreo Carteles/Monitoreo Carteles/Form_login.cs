@@ -51,6 +51,7 @@ namespace Monitoreo_Carteles
 
         public static Boolean coneccionBaseDatos_b = false, monitor_b = false;
         public static int timeRefresh_i = 60000;
+        public static string ip_i = "172.30.107.200";
 
         public Form_login()
         {
@@ -58,22 +59,16 @@ namespace Monitoreo_Carteles
             this.textBox_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
             this.textBox_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
             SetTimer(timeRefresh_i, true);
-            label_estadoConexion = new Label();
             
             //levanto por primera vez todo
             coneccionBaseDatos_b = loadServer();
-            /*if (!coneccionBaseDatos_b)
-            {
-                // como no me pude conectar, tengo que esperar a que el el timer se termine y trate de cargarlo el.
-                MessageBox.Show("ERROR al conectarse a la base de datos... /n reintentando en 60 segundos...");
-                label_estadoConexion.Text = "ERROR al conectarse a la base de datos...";
+            this.textBox_username.Select();
+            if (coneccionBaseDatos_b) this.label_estadoConexion.Text = "Conexion OK";
+            else this.label_estadoConexion.Text = "Conexion ERROR";
 
-            }*/
-            //Log("DEBUG", "HOLA");
-            //label_estadoConexion.Text = "Coneccion EXITOSA a la base de datos...";
         }
 
-        public static void SetTimer(int time, Boolean fisrt)
+        private void SetTimer(int time, Boolean fisrt)
         {
             if (fisrt)
             {
@@ -91,19 +86,25 @@ namespace Monitoreo_Carteles
             aTimer.Enabled = true;
         }
 
-        public static void OnTimedEvent(Object source, ElapsedEventArgs e)
+        private void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
             Boolean caca = loadServer();
+            if (monitor_b)
+            {
+                //Boolean caca2 = updateInterface();
+            }
         }
-
-        public static Boolean loadServer()
+        
+        private Boolean loadServer()
         {
             Boolean estado = false;
             DateTime current = DateTime.Now;
             NpgsqlConnection conexion = new NpgsqlConnection();
             //casa: 190.16.226.7
             //metrovias: 172.30.108.200
-            var cadena = "Server=172.30.108.200;Port=5432;User Id=postgres;Password=postgres;Database=scp;";
+            //metrovias: 172.30.107.200
+
+            var cadena = string.Format("Server={0};Port=5432;User Id=postgres;Password=postgres;Database=scp;",ip_i);
             if (!string.IsNullOrWhiteSpace(cadena))
             {
                 try
@@ -206,7 +207,7 @@ namespace Monitoreo_Carteles
             return estado;
         }
 
-        public static void Log(string type, string logMessage)
+        private void Log(string type, string logMessage)
         {
             try
             {
@@ -334,6 +335,8 @@ namespace Monitoreo_Carteles
                 if (usuario_b)
                 {
                     MessageBox.Show("USUARIO VALIDO!", "Inicio sesion");
+                    aTimer.Stop();
+                    aTimer.Dispose();
                     Form_monitor form_monitor = new Form_monitor();
                     form_monitor.Show();
                     this.Hide();
