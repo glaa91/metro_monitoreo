@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label_estadoConexion = new System.Windows.Forms.Label();
+            this.login_labelEstadoConexion = new System.Windows.Forms.Label();
             this.textBox_password = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,21 +40,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label_estadoConexion
+            // login_labelEstadoConexion
             // 
-            this.label_estadoConexion.AutoSize = true;
-            this.label_estadoConexion.Location = new System.Drawing.Point(180, 464);
-            this.label_estadoConexion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label_estadoConexion.Name = "label_estadoConexion";
-            this.label_estadoConexion.Size = new System.Drawing.Size(295, 20);
-            this.label_estadoConexion.TabIndex = 6;
-            this.label_estadoConexion.Text = "Estado de Conexion con base de datos..";
-            this.label_estadoConexion.Click += new System.EventHandler(this.label3_Click_1);
+            this.login_labelEstadoConexion.AutoSize = true;
+            this.login_labelEstadoConexion.Location = new System.Drawing.Point(245, 464);
+            this.login_labelEstadoConexion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.login_labelEstadoConexion.Name = "login_labelEstadoConexion";
+            this.login_labelEstadoConexion.Size = new System.Drawing.Size(295, 20);
+            this.login_labelEstadoConexion.TabIndex = 6;
+            this.login_labelEstadoConexion.Text = "Estado de Conexion con base de datos..";
+            this.login_labelEstadoConexion.Click += new System.EventHandler(this.label3_Click_1);
             // 
             // textBox_password
             // 
             this.textBox_password.AcceptsReturn = true;
-            this.textBox_password.Location = new System.Drawing.Point(228, 284);
+            this.textBox_password.Location = new System.Drawing.Point(268, 281);
             this.textBox_password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox_password.Name = "textBox_password";
             this.textBox_password.Size = new System.Drawing.Size(173, 26);
@@ -64,7 +64,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(73, 290);
+            this.label2.Location = new System.Drawing.Point(113, 287);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 20);
@@ -74,7 +74,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 250);
+            this.label1.Location = new System.Drawing.Point(113, 244);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 20);
@@ -84,7 +84,7 @@
             // 
             // textBox_username
             // 
-            this.textBox_username.Location = new System.Drawing.Point(228, 244);
+            this.textBox_username.Location = new System.Drawing.Point(268, 241);
             this.textBox_username.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox_username.Name = "textBox_username";
             this.textBox_username.Size = new System.Drawing.Size(173, 26);
@@ -93,7 +93,7 @@
             // 
             // button_login
             // 
-            this.button_login.Location = new System.Drawing.Point(143, 342);
+            this.button_login.Location = new System.Drawing.Point(193, 339);
             this.button_login.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button_login.Name = "button_login";
             this.button_login.Size = new System.Drawing.Size(152, 65);
@@ -105,17 +105,17 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.pictureBox1);
-            this.groupBox1.Controls.Add(this.label_estadoConexion);
+            this.groupBox1.Controls.Add(this.login_labelEstadoConexion);
             this.groupBox1.Controls.Add(this.textBox_password);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.textBox_username);
             this.groupBox1.Controls.Add(this.button_login);
-            this.groupBox1.Location = new System.Drawing.Point(22, 14);
+            this.groupBox1.Location = new System.Drawing.Point(13, 14);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(483, 489);
+            this.groupBox1.Size = new System.Drawing.Size(548, 489);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter_1);
@@ -123,7 +123,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Monitoreo_Carteles.Resource1.metrovias;
-            this.pictureBox1.Location = new System.Drawing.Point(77, 29);
+            this.pictureBox1.Location = new System.Drawing.Point(117, 29);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(324, 154);
@@ -136,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 517);
+            this.ClientSize = new System.Drawing.Size(574, 517);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form_login";
             this.Text = "Login";
@@ -149,7 +149,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label_estadoConexion;
+        private System.Windows.Forms.Label login_labelEstadoConexion;
         private System.Windows.Forms.TextBox textBox_password;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

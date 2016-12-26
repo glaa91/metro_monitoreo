@@ -34,3 +34,18 @@ C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitor
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form_monitor.resources
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.form_login.resources
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form1.resources
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Monitoreo Carteles.exe.config
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo Carteles.exe
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo Carteles.pdb
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Monitoreo Carteles.exe
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Monitoreo Carteles.pdb
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Npgsql.dll
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\bin\Debug\Npgsql.xml
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo Carteles.csprojResolveAssemblyReference.cache
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form1.resources
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form_monitor.resources
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form_login.resources
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Properties.Resources.resources
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Resource1.resources
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo Carteles.csproj.GenerateResource.Cache
+C:\Users\gla91\Desktop\Nueva carpeta\metro_monitoreo-master\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form_config.resources

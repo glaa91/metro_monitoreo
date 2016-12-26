@@ -31,7 +31,7 @@ namespace Monitoreo_Carteles
     {
         private static System.Timers.Timer aTimer;
         private static List<Usuario> usuarios_l = new List<Usuario>();
-        private static List<Cartel> carteles_l = new List<Cartel>();
+        public static List<Cartel> carteles_l = new List<Cartel>();
         public static List<Estacion> estaciones_l = new List<Estacion>();
 
         //  nombre de las estaciones en orden sin repetir
@@ -51,6 +51,13 @@ namespace Monitoreo_Carteles
 
         public static Boolean coneccionBaseDatos_b = false, monitor_b = false;
         public static int timeRefresh_i = 60000;
+        public static string ip_s = "172.30.107.200";
+        public static string conexion_s = string.Format("Server=172.30.107.200;Port=5432;User Id=postgres;Password=postgres;Database=scp;");
+        //casa: 190.16.226.7
+        //metrovias: 172.30.108.200
+        //metrovias: 172.30.107.200
+
+        public static string infoMonitoreo_s = "Monitoreo Carteles - SCP - ver. 261216 - BETA";
 
         public Form_login()
         {
@@ -58,22 +65,17 @@ namespace Monitoreo_Carteles
             this.textBox_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
             this.textBox_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
             SetTimer(timeRefresh_i, true);
-            label_estadoConexion = new Label();
-            
+            this.Text = infoMonitoreo_s;
             //levanto por primera vez todo
             coneccionBaseDatos_b = loadServer();
-            /*if (!coneccionBaseDatos_b)
-            {
-                // como no me pude conectar, tengo que esperar a que el el timer se termine y trate de cargarlo el.
-                MessageBox.Show("ERROR al conectarse a la base de datos... /n reintentando en 60 segundos...");
-                label_estadoConexion.Text = "ERROR al conectarse a la base de datos...";
+            this.textBox_username.Select();
 
-            }*/
-            //Log("DEBUG", "HOLA");
-            //label_estadoConexion.Text = "Coneccion EXITOSA a la base de datos...";
+            if (coneccionBaseDatos_b) this.login_labelEstadoConexion.Text = "Conexion database OK";
+            else this.login_labelEstadoConexion.Text = "Conexion database ERROR";
+
         }
 
-        public static void SetTimer(int time, Boolean fisrt)
+        private void SetTimer(int time, Boolean fisrt)
         {
             if (fisrt)
             {
@@ -91,122 +93,115 @@ namespace Monitoreo_Carteles
             aTimer.Enabled = true;
         }
 
-        public static void OnTimedEvent(Object source, ElapsedEventArgs e)
+        private void OnTimedEvent(Object source, ElapsedEventArgs e)
         {
-            Boolean caca = loadServer();
+            if (coneccionBaseDatos_b != true)   //  si nunca me conecte a la base de datos, me trato de conectar y crear todo
+            {
+                Boolean caca = loadServer();
+            }
         }
-
-        public static Boolean loadServer()
+        
+        private Boolean loadServer()
         {
             Boolean estado = false;
             DateTime current = DateTime.Now;
             NpgsqlConnection conexion = new NpgsqlConnection();
-            //casa: 190.16.226.7
-            //metrovias: 172.30.108.200
-            var cadena = "Server=172.30.108.200;Port=5432;User Id=postgres;Password=postgres;Database=scp;";
-            if (!string.IsNullOrWhiteSpace(cadena))
+            try
             {
-                try
+                conexion = new NpgsqlConnection(conexion_s);
+                conexion.Open();
+                //MessageBox.Show("Conexion a la base de datos: OK", current.ToString());
+                Log("DEBUG", "ME CONECTE BIEN A LA BASE DE DATOS!");
+                Log("INFO", "Database OK");
+                using (var cmd = new NpgsqlCommand())
                 {
-                    conexion = new NpgsqlConnection(cadena);
-                    conexion.Open();
-                    //MessageBox.Show("Conexion a la base de datos: OK", current.ToString());
-                    Log("INFO", "Database OK");
-                    Log("DEBUG", "ME CONECTE BIEN A LA BASE DE DATOS!");
-                    estado = true;
-                    coneccionBaseDatos_b = true;
-                    using (var cmd = new NpgsqlCommand())
+                    cmd.Connection = conexion;
+                    //LEO TODAS LAS COLUMNAS DE CUENTAS
+                    cmd.CommandText = "SELECT * FROM v_cuentas";
+                    using (var reader = cmd.ExecuteReader())
                     {
-                        cmd.Connection = conexion;
-                        //LEO TODAS LAS COLUMNAS DE CUENTAS
-                        cmd.CommandText = "SELECT * FROM v_cuentas";
-                        using (var reader = cmd.ExecuteReader())
+                        while (reader.Read())
                         {
-                            while (reader.Read())
-                            {
-                                //string username = reader.GetString(0);    //username
-                                //string password = reader.GetString(1);    //password
-                                //Console.WriteLine(username); //username
-                                //Console.WriteLine(password); //password
-                                /*
-                                 * lo que hago es cargar los datos de los usuarios la clase. y para independizarme
-                                 * lo hago dentro una List, asi con solo hacer un Count se el tamaño total.
-                                */
-                                var temp = new Usuario(reader.GetString(0), reader.GetString(1));
-                                usuarios_l.Add(temp);
-                            }
-                            /*for(int i=0; i<usuarios_l.Count; i++)
-                            {
-                                Log("DEBUG", string.Format("Usuario [{0}]: {1}", i, usuarios_l[i].Username));
-                                Log("DEBUG", string.Format("Usuario [{0}]: {1}", i, usuarios_l[i].Username));
-                            }*/
-                            Console.WriteLine();
+                            //string username = reader.GetString(0);    //username
+                            //string password = reader.GetString(1);    //password
+                            //Console.WriteLine(username); //username
+                            //Console.WriteLine(password); //password
+                            /*
+                             * lo que hago es cargar los datos de los usuarios la clase. y para independizarme
+                             * lo hago dentro una List, asi con solo hacer un Count se el tamaño total.
+                            */
+                            var temp = new Usuario(reader.GetString(0), reader.GetString(1));
+                            usuarios_l.Add(temp);
                         }
-                        //LEO TODAS LAS COLUMNAS DE ESTACIONES
-                        cmd.CommandText = "SELECT * FROM v_estaciones";
+                        /*for(int i=0; i<usuarios_l.Count; i++)
+                        {
+                            Log("DEBUG", string.Format("Usuario [{0}]: {1}", i, usuarios_l[i].Username));
+                            Log("DEBUG", string.Format("Usuario [{0}]: {1}", i, usuarios_l[i].Username));
+                        }*/
+                        Console.WriteLine();
+                    }
+                    //LEO TODAS LAS COLUMNAS DE ESTACIONES
+                    for (int i = 0; i < Form_monitor.lineas.Length; i++)
+                    {
+                        cmd.CommandText = String.Format("SELECT * FROM v_estaciones{0}", Form_monitor.lineas[i]);
                         using (var reader = cmd.ExecuteReader())
                         {
                             while (reader.Read())
-                            {
+                            {// numeroSerie, numeroCartel, ip, linea, estacion, dateTime, ping
                                 var temp = new Estacion(reader.GetString(0), reader.GetString(1), reader.GetString(2),
-                                    reader.GetString(3), reader.GetString(4), reader.GetString(5), reader.GetBoolean(6));
+                                reader.GetString(3), reader.GetString(4), reader.GetString(5), reader.GetBoolean(6));
                                 Form_login.estaciones_l.Add(temp);
                             }
-                            /*for (int i = 0; i < estaciones_l.Count; i++)
-                            {
-                                Log("DEBUG", string.Format("numeroSerie [{0}]: {1}", i, estaciones_l[i].NumeroSerie));
-                                Log("DEBUG", string.Format("numeroCartel [{0}]: {1}", i, estaciones_l[i].DateTime));
-                                Log("DEBUG", string.Format("ip [{0}]: {1}", i, estaciones_l[i].Ip));
-                                Log("DEBUG", string.Format("linea [{0}]: {1}", i, estaciones_l[i].Linea));
-                                Log("DEBUG", string.Format("estacion [{0}]: {1}", i, estaciones_l[i].Estacionn));
-                                Log("DEBUG", string.Format("dateTime [{0}]: {1}", i, estaciones_l[i].DateTime));
-                                Log("DEBUG", string.Format("ping [{0}]: {1}", i, estaciones_l[i].Ping));
-                                Log("DEBUG", string.Format(""));
-                            }*/
-                        }
-                        //LEO TODAS LAS COLUMNAS DE CARTELES
-                        cmd.CommandText = "SELECT * FROM v_carteles";
-                        using (var reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                var temp = new Cartel(reader.GetString(0), reader.GetString(1), reader.GetString(2),
-                                    reader.GetString(3), reader.GetString(4), reader.GetBoolean(5), reader.GetBoolean(6),
-                                    reader.GetBoolean(7), reader.GetBoolean(8), reader.GetString(9));
-                                carteles_l.Add(temp);
-                            }
-                            /*for (int i = 0; i < carteles_l.Count; i++)
-                            {
-                                Log("DEBUG", string.Format("numeroSerie [{0}]: {1}", i, carteles_l[i].NumeroSerie));
-                                Log("DEBUG", string.Format("dateTime [{0}]: {1}", i, carteles_l[i].DateTime));
-                                Log("DEBUG", string.Format("pila [{0}]: {1}", i, carteles_l[i].Pila));
-                                Log("DEBUG", string.Format("temp [{0}]: {1}", i, carteles_l[i].Temp));
-                                Log("DEBUG", string.Format("corriente [{0}]: {1}", i, carteles_l[i].Corriente));
-                                Log("DEBUG", string.Format("fuente5v [{0}]: {1}", i, carteles_l[i].Fuente5v));
-                                Log("DEBUG", string.Format("fuente24v [{0}]: {1}", i, carteles_l[i].Fuente24v));
-                                Log("DEBUG", string.Format("fuentePpic [{0}]: {1}", i, carteles_l[i].FuentePpic));
-                                Log("DEBUG", string.Format("fuente5pic [{0}]: {1}", i, carteles_l[i].Fuente5pic));
-                                Log("DEBUG", string.Format("mensaje [{0}]: {1}", i, carteles_l[i].Mensaje));
-                                Log("DEBUG", string.Format(""));
-                            }*/
                         }
                     }
+                    //LEO TODAS LAS COLUMNAS DE CARTELES
+                    cmd.CommandText = "SELECT * FROM v_carteles";
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var temp = new Cartel(reader.GetString(0), reader.GetString(1), reader.GetString(2),
+                                reader.GetString(3), reader.GetString(4), reader.GetBoolean(5), reader.GetBoolean(6),
+                                reader.GetBoolean(7), reader.GetBoolean(8), reader.GetString(9));
+                            Form_login.carteles_l.Add(temp);
+                        }
+                        /*for (int i = 0; i < carteles_l.Count; i++)
+                        {
+                            Log("DEBUG", string.Format("numeroSerie [{0}]: {1}", i, carteles_l[i].NumeroSerie));
+                            Log("DEBUG", string.Format("dateTime [{0}]: {1}", i, carteles_l[i].DateTime));
+                            Log("DEBUG", string.Format("pila [{0}]: {1}", i, carteles_l[i].Pila));
+                            Log("DEBUG", string.Format("temp [{0}]: {1}", i, carteles_l[i].Temp));
+                            Log("DEBUG", string.Format("corriente [{0}]: {1}", i, carteles_l[i].Corriente));
+                            Log("DEBUG", string.Format("fuente5v [{0}]: {1}", i, carteles_l[i].Fuente5v));
+                            Log("DEBUG", string.Format("fuente24v [{0}]: {1}", i, carteles_l[i].Fuente24v));
+                            Log("DEBUG", string.Format("fuentePpic [{0}]: {1}", i, carteles_l[i].FuentePpic));
+                            Log("DEBUG", string.Format("fuente5pic [{0}]: {1}", i, carteles_l[i].Fuente5pic));
+                            Log("DEBUG", string.Format("mensaje [{0}]: {1}", i, carteles_l[i].Mensaje));
+                            Log("DEBUG", string.Format(""));
+                        }*/
+                    }
+                    estado = true;
+                    coneccionBaseDatos_b = true;
+                    login_labelEstadoConexion.Text = "Conexion database OK";
+                    login_labelEstadoConexion.Refresh();
                     conexion.Close();
                 }
-                catch (Exception)
-                {
-                    //MessageBox.Show("Conexion a la base de datos: ERROR", current.ToString());
-                    Log("DEBUG", string.Format("NO ME PUDE CENCTAR A LA BASE DE DATOS!"));
-                    Log("INFO", string.Format("ERROR DATABASE"));
-                    conexion.Close();
-                    estado = false;
-                    coneccionBaseDatos_b = false;
-                }
+            }
+            catch (Exception)
+            {
+                //MessageBox.Show("Conexion a la base de datos: ERROR", current.ToString());
+                Log("DEBUG", string.Format("NO ME PUDE CONECTAR A LA BASE DE DATOS!"));
+                Log("INFO", string.Format("ERROR DATABASE"));
+                conexion.Close();
+                estado = false;
+                coneccionBaseDatos_b = false;
+                //login_labelEstadoConexion.Text = "Conexion database ERROR";
+                //login_labelEstadoConexion.Refresh();
             }
             return estado;
         }
 
-        public static void Log(string type, string logMessage)
+        private void Log(string type, string logMessage)
         {
             try
             {
@@ -234,6 +229,7 @@ namespace Monitoreo_Carteles
 
             }
         }
+
         private void CheckKeys(object sender, System.Windows.Forms.KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
@@ -334,6 +330,8 @@ namespace Monitoreo_Carteles
                 if (usuario_b)
                 {
                     MessageBox.Show("USUARIO VALIDO!", "Inicio sesion");
+                    aTimer.Stop();
+                    aTimer.Dispose();
                     Form_monitor form_monitor = new Form_monitor();
                     form_monitor.Show();
                     this.Hide();

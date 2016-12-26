@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 
 namespace Monitoreo_Carteles
 {
-    class Cartel
+    public class Cartel
     {
         public string NumeroSerie { get; set; }
         public string DateTime { get; set; }

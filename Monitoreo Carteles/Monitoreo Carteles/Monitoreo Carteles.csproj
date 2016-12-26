@@ -50,6 +50,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cartel.cs" />
+    <Compile Include="Form_config.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_config.Designer.cs">
+      <DependentUpon>Form_config.cs</DependentUpon>
+    </Compile>
     <Compile Include="Estacion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -77,6 +83,9 @@
       <DependentUpon>Resource1.resx</DependentUpon>
     </Compile>
     <Compile Include="Usuario.cs" />
+    <EmbeddedResource Include="Form_config.resx">
+      <DependentUpon>Form_config.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -94,6 +103,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Resource1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -115,6 +125,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\001600_122364.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pegatina_circulo_verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rojo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verde_de_neon_del_circulo_1_del_cricketdiane_2_pegatina_redonda-r08fdbe20e88d4a74838b9542be54ea9b_v9waf_8byvr_324.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow-1210520_960_720.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\boton_amarillo.png" />
@@ -160,21 +185,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\metrovias.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pegatina_circulo_verde.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\rojo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\verde.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\verde_de_neon_del_circulo_1_del_cricketdiane_2_pegatina_redonda-r08fdbe20e88d4a74838b9542be54ea9b_v9waf_8byvr_324.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\yellow-1210520_960_720.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
