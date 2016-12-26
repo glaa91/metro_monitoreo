@@ -18,13 +18,26 @@ namespace Monitoreo_Carteles
     public partial class Form_monitor : Form
     {
         private string tabMonitor_s = "MONITOR", tabDebug_s = "DEBUG", tabConfig_s = "CONFIGURACION";
-        protected static List<Label> labelEstacionesA_l = new List<Label>();
+        protected static Label[] labelEstacionesA_l = new Label[1];
         protected static List<Label> labelEstacionesB_l = new List<Label>();
         protected static List<Label> labelEstacionesC_l = new List<Label>();
         protected static List<Label> labelEstacionesD_l = new List<Label>();
         protected static List<Label> labelEstacionesE_l = new List<Label>();
         protected static List<Label> labelEstacionesH_l = new List<Label>();
 
+        protected static PictureBox[] pictureBoxEstacionesA_l = new PictureBox[1];
+        protected static List<PictureBox> pictureBoxEstacionesB_l = new List<PictureBox>();
+        protected static List<PictureBox> pictureBoxEstacionesC_l = new List<PictureBox>();
+        protected static List<PictureBox> pictureBoxEstacionesD_l = new List<PictureBox>();
+        protected static List<PictureBox> pictureBoxEstacionesE_l = new List<PictureBox>();
+        protected static List<PictureBox> pictureBoxEstacionesH_l = new List<PictureBox>();
+
+        protected static TableLayoutPanel tlpA = new TableLayoutPanel();
+        protected static TableLayoutPanel tlpB = new TableLayoutPanel();
+        protected static TableLayoutPanel tlpC = new TableLayoutPanel();
+        protected static TableLayoutPanel tlpD = new TableLayoutPanel();
+        protected static TableLayoutPanel tlpE = new TableLayoutPanel();
+        protected static TableLayoutPanel tlpH = new TableLayoutPanel();
 
         public Form_monitor()
         {
@@ -32,212 +45,12 @@ namespace Monitoreo_Carteles
             this.richTextBox_debug = new RichTextBox();
             //this.textBox_configuracion_refresh.KeyPress += new System.Windows.Forms.KeyPressEventHandler(CheckKeys);
             Form_login.monitor_b = true;
-
-            setImages(0, 80);
-
-            string line = null, aux = null;
-            int auxA = 1, auxB = 1, auxC = 1, auxD = 1, auxE = 1, auxH = 1;
-            System.IO.StreamReader file = new System.IO.StreamReader("datos.txt");  // Read the file and display it line by line.  
-            while ((line = file.ReadLine()) != null)    // busco las letras que indican cada linea
-            {
-                if (line == "A:")   aux = "A";
-                else if (line == "B:")  aux = "B";
-                else if (line == "C:")  aux = "C";
-                else if (line == "D:")  aux = "D";
-                else if (line == "E:")  aux = "E";
-                else if (line == "H:")  aux = "H";
-                else
-                {
-                    tableLayoutPanel_monitor.RowCount = tableLayoutPanel_monitor.RowCount + 1;
-                    if (aux == "A")
-                    {
-                        var temp = new Label();
-                        temp.Text = line;
-                        temp.Font = new Font("calibri", 12, FontStyle.Regular);
-                        tableLayoutPanel_monitor.Controls.Add(temp, 0, auxA);
-                        labelEstacionesA_l.Add(temp);
-                        auxA++;
-                    }
-                    else if (aux == "B")
-                    {
-                        var temp = new Label();
-                        temp.Text = line;
-                        temp.Font = new Font("calibri", 12, FontStyle.Regular);
-                        tableLayoutPanel_monitor.Controls.Add(temp, 1, auxB);
-                        labelEstacionesB_l.Add(temp);
-                        auxB++;
-                    }
-                    else if (aux == "C")
-                    {
-                        var temp = new Label();
-                        temp.Text = line;
-                        temp.Font = new Font("calibri", 12, FontStyle.Regular);
-                        tableLayoutPanel_monitor.Controls.Add(temp, 2, auxC);
-                        labelEstacionesC_l.Add(temp);
-                        auxC++;
-                    }
-                    else if (aux == "D")
-                    {
-                        var temp = new Label();
-                        temp.Text = line;
-                        temp.Font = new Font("calibri", 12, FontStyle.Regular);
-                        tableLayoutPanel_monitor.Controls.Add(temp, 3, auxD);
-                        labelEstacionesD_l.Add(temp);
-                        auxD++;
-                    }
-                    else if (aux == "E")
-                    {
-                        var temp = new Label();
-                        temp.Text = line;
-                        temp.Font = new Font("calibri", 12, FontStyle.Regular);
-                        tableLayoutPanel_monitor.Controls.Add(temp, 4, auxE);
-                        labelEstacionesE_l.Add(temp);
-                        auxE++;
-                    }
-                    else if (aux == "H")
-                    {
-                        var temp = new Label();
-                        temp.Text = line;
-                        temp.Font = new Font("calibri", 12, FontStyle.Regular);
-                        tableLayoutPanel_monitor.Controls.Add(temp, 5, auxH);
-                        labelEstacionesH_l.Add(temp);
-                        auxH++;
-                    }
-                }
-            }
-
-            file.Close();
-
-            /*int auxA = 0, auxB = 0, auxC = 0, auxD = 0, auxE = 0, auxH = 0;
-            string ant = null;
-            for (int w = 0; w < Form_login.estaciones_l.Count; w++) //cuento cuantas estaciones hay sin repetir
-            {
-                if (Form_login.estaciones_l[w].Linea == "a")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        auxA++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                if (Form_login.estaciones_l[w].Linea == "b")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        auxB++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                if (Form_login.estaciones_l[w].Linea == "c")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        auxC++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                if (Form_login.estaciones_l[w].Linea == "d")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        auxD++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                if (Form_login.estaciones_l[w].Linea == "e")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        auxE++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                if (Form_login.estaciones_l[w].Linea == "h")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        auxH++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-            }
-            //calculo que linea tiene la mayor cantidad de estaciones para crear las verticales
-            int max = Math.Max(Math.Max(Math.Max(Math.Max(Math.Max(auxA, auxB), auxC), auxD), auxE), auxH);
-            tableLayoutPanel_monitor.RowCount = tableLayoutPanel_monitor.RowCount + max;
-
-            auxA = 1; auxB = 1; auxC = 1; auxD = 1; auxE = 1; auxH = 1;
-            ant = null;
-            for (int w=0; w < Form_login.estaciones_l.Count; w++)
-            {
-                var temp = new Label();
-                temp.Text = Form_login.estaciones_l[w].Estacionn;
-                if(Form_login.estaciones_l[w].Linea == "a")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        tableLayoutPanel_monitor.Controls.Add(temp, 0, auxA);
-                        labelEstacionesA_l.Add(temp);
-                        auxA++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                else if (Form_login.estaciones_l[w].Linea == "b")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        tableLayoutPanel_monitor.Controls.Add(temp, 1, auxB);
-                        labelEstacionesB_l.Add(temp);
-                        auxB++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                else if (Form_login.estaciones_l[w].Linea == "c")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        tableLayoutPanel_monitor.Controls.Add(temp, 2, auxC);
-                        labelEstacionesC_l.Add(temp);
-                        auxC++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                else if (Form_login.estaciones_l[w].Linea == "d")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        tableLayoutPanel_monitor.Controls.Add(temp, 3, auxD);
-                        labelEstacionesD_l.Add(temp);
-                        auxD++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                else if (Form_login.estaciones_l[w].Linea == "e")
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        tableLayoutPanel_monitor.Controls.Add(temp, 4, auxE);
-                        labelEstacionesE_l.Add(temp);
-                        auxD++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                else
-                {
-                    if (Form_login.estaciones_l[w].Estacionn != ant)
-                    {
-                        tableLayoutPanel_monitor.Controls.Add(temp, 5, auxH);
-                        labelEstacionesH_l.Add(temp);
-                        auxH++;
-                        ant = Form_login.estaciones_l[w].Estacionn;
-                    }
-                }
-                //Form_login.Log("DEBUG", Form_login.estaciones_l[w].Estacionn);
-            }*/
-            
-
+            loadEstaciones("datos.txt");
+            setImages(0, 80);   //cargo las imagenes de las lineas
+            loadInterface("calibri", 12, FontStyle.Regular);   //cargo la interfaz
 
         }
-        private void setImages(int pos, int tam)
+        private void setImages(int pos, int tam)    //Esta funcion carga las picturesBox con las letras de las lineas, POS= numero columna. tam, el anchoXlargo
         {
             PictureBox pbA = new PictureBox();
             PictureBox pbB = new PictureBox();
@@ -271,6 +84,9 @@ namespace Monitoreo_Carteles
             pbH.SizeMode = PictureBoxSizeMode.CenterImage;
             pbH.SizeMode = PictureBoxSizeMode.StretchImage;
 
+            tableLayoutPanel_monitor.RowCount += 1;
+            tableLayoutPanel_monitor.RowStyles.Add(new RowStyle(SizeType.Absolute));
+
             tableLayoutPanel_monitor.Controls.Add(pbA, 0, pos);
             tableLayoutPanel_monitor.Controls.Add(pbB, 1, pos);
             tableLayoutPanel_monitor.Controls.Add(pbC, 2, pos);
@@ -278,6 +94,184 @@ namespace Monitoreo_Carteles
             tableLayoutPanel_monitor.Controls.Add(pbE, 4, pos);
             tableLayoutPanel_monitor.Controls.Add(pbH, 5, pos);
         }
+
+        private void loadEstaciones(string path)
+        {
+            string line = null, aux = null;
+            System.IO.StreamReader file = new System.IO.StreamReader(path);  // Read the file and display it line by line.  
+            while ((line = file.ReadLine()) != null)    // busco las letras que indican cada linea
+            {
+                if (line == "A:")   aux = "A";
+                else if (line == "B:")  aux = "B";
+                else if (line == "C:")  aux = "C";
+                else if (line == "D:")  aux = "D";
+                else if (line == "E:")  aux = "E";
+                else if (line == "H:")  aux = "H";
+                else
+                {
+                    if (aux == "A")
+                    {
+                        Form_login.nombreEstacionesA_l.Add(line);
+                    }
+                    else if (aux == "B")
+                    {
+                        Form_login.nombreEstacionesB_l.Add(line);
+                    }
+                    else if (aux == "C")
+                    {
+                        Form_login.nombreEstacionesC_l.Add(line);
+                    }
+                    else if (aux == "D")
+                    {
+                        Form_login.nombreEstacionesD_l.Add(line);
+                    }
+                    else if (aux == "E")
+                    {
+                        Form_login.nombreEstacionesE_l.Add(line);
+                    }
+                    else if (aux == "H")
+                    {
+                        Form_login.nombreEstacionesH_l.Add(line);
+                    }
+                }
+            }
+            file.Close();
+            int x= 0;
+            for (int i = 0; i < Form_login.nombreEstacionesA_l.Count; i++)
+            {
+                for (int k = 0; k < Form_login.estaciones_l.Count; k++)
+                {
+                    //Form_login.Log("DEBUG", String.Format("{0} - {1}", Form_login.nombreEstacionesB_l[i], Form_login.estaciones_l[k].Estacionn));
+                    if (Form_login.nombreEstacionesA_l[i].ToLower() == Form_login.estaciones_l[k].Estacionn.ToLower())
+                    {
+                        x++;
+                    }
+                }
+                Form_login.cartelesPorEstacionA_l.Add(x);
+                x = 0;
+            }
+            for (int i=0; i<Form_login.nombreEstacionesB_l.Count; i++)
+            {
+                for(int k=0; k< Form_login.estaciones_l.Count; k++)
+                {
+                    if (Form_login.nombreEstacionesB_l[i].ToLower() == Form_login.estaciones_l[k].Estacionn.ToLower())
+                    {
+                        x++;
+                    }
+                }
+                Form_login.cartelesPorEstacionB_l.Add(x);
+                x = 0;
+            }
+            for (int i = 0; i < Form_login.nombreEstacionesC_l.Count; i++)
+            {
+                for (int k = 0; k < Form_login.estaciones_l.Count; k++)
+                {
+                    if (Form_login.nombreEstacionesC_l[i].ToLower() == Form_login.estaciones_l[k].Estacionn.ToLower())
+                    {
+                        x++;
+                    }
+                }
+                Form_login.cartelesPorEstacionC_l.Add(x);
+                x = 0;
+            }
+            for (int i = 0; i < Form_login.nombreEstacionesD_l.Count; i++)
+            {
+                for (int k = 0; k < Form_login.estaciones_l.Count; k++)
+                {
+                    if (Form_login.nombreEstacionesD_l[i].ToLower() == Form_login.estaciones_l[k].Estacionn.ToLower())
+                    {
+                        x++;
+                    }
+                }
+                Form_login.cartelesPorEstacionD_l.Add(x);
+                x = 0;
+            }
+            for (int i = 0; i < Form_login.nombreEstacionesE_l.Count; i++)
+            {
+                for (int k = 0; k < Form_login.estaciones_l.Count; k++)
+                {
+                    if (Form_login.nombreEstacionesE_l[i].ToLower() == Form_login.estaciones_l[k].Estacionn.ToLower())
+                    {
+                        x++;
+                    }
+                }
+                Form_login.cartelesPorEstacionE_l.Add(x);
+                x = 0;
+            }
+            for (int i = 0; i < Form_login.nombreEstacionesH_l.Count; i++)
+            {
+                for (int k = 0; k < Form_login.estaciones_l.Count; k++)
+                {
+                    if (Form_login.nombreEstacionesH_l[i].ToLower() == Form_login.estaciones_l[k].Estacionn.ToLower())
+                    {
+                        x++;
+                    }
+                }
+                Form_login.cartelesPorEstacionH_l.Add(x);
+                x = 0;
+            }
+        }
+
+        private void loadInterface(string fontType, float fontSize, FontStyle fontStyle)
+        {
+            int ant = 0;
+            for(int i=0; i<Form_login.cartelesPorEstacionB_l.Count; i++)
+            {
+                ant = Math.Max(ant, Form_login.cartelesPorEstacionB_l[i]);
+            }
+            tlpB.Controls.Clear();
+            tlpB.ColumnStyles.Clear();
+            tlpB.RowStyles.Clear();
+            tlpB.ColumnCount = ant+1;
+            tlpB.RowCount = Form_login.nombreEstacionesB_l.Count;
+            for (int x = 0; x < ant+1; x++)
+            {
+                //First add a column
+                tlpB.ColumnStyles.Add(new ColumnStyle(SizeType.AutoSize));
+                for (int y = 0; y < Form_login.nombreEstacionesB_l.Count; y++)
+                {
+                    //Next, add a row.  Only do this when once, when creating the first column
+                    if (x == 0)
+                    {
+                        tlpB.RowStyles.Add(new RowStyle(SizeType.AutoSize));
+                    }
+                    if (x > 0)
+                    {
+                        //Create the control, in this case we will add a button
+                        PictureBox aux = new PictureBox();
+                        aux.Image = Resource1.boton_rojo1;
+                        aux.Size = new System.Drawing.Size(20, 20);
+                        aux.SizeMode = PictureBoxSizeMode.CenterImage;
+                        aux.SizeMode = PictureBoxSizeMode.StretchImage;
+                        tlpB.Controls.Add(aux, x, y);
+                    }
+                    else
+                    {
+                        Label aux = new Label();
+                        aux.Text = Form_login.nombreEstacionesB_l[y];
+                        tlpB.Controls.Add(aux, 0, y);
+                    }
+                }
+            }
+            /*
+                Array.Resize(ref pictureBoxEstacionesA_l, pictureBoxEstacionesA_l.Length + 1);
+            pictureBoxEstacionesA_l[auxA] = new PictureBox();
+            pictureBoxEstacionesA_l[auxA].Image = Resource1.boton_rojo1;
+            pictureBoxEstacionesA_l[auxA].Size = new System.Drawing.Size(20, 20);
+            pictureBoxEstacionesA_l[auxA].SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBoxEstacionesA_l[auxA].SizeMode = PictureBoxSizeMode.StretchImage;
+            //tableLayoutPanel_monitor.Controls.Add(pictureBoxEstacionesA_l[auxA], 0, auxA);
+            Array.Resize(ref labelEstacionesA_l, labelEstacionesA_l.Length + 1);
+            labelEstacionesA_l[auxA] = new Label();
+            labelEstacionesA_l[auxA].Text = line;
+            labelEstacionesA_l[auxA].Font = new Font(fontType, fontSize, fontStyle);
+            //tableLayoutPanel_monitor.Controls.Add(labelEstacionesA_l[auxA], 0, auxA);*/
+            tableLayoutPanel_monitor.Controls.Add(tlpB, 1, 1);
+        }
+        
+
+            
+            
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -344,13 +338,6 @@ namespace Monitoreo_Carteles
         {
 
         }
-        private void Form_monitor_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (string.Equals((sender as Button).Name, @"CloseButton"))
-            {
-                this.Close();
-            }
-}
     }
 }
 

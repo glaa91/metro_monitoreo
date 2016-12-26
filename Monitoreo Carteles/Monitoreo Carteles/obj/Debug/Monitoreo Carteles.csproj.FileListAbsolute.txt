@@ -33,3 +33,4 @@ C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitor
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Resource1.resources
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form_monitor.resources
 C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.form_login.resources
+C:\Users\Gaston ´´2´´\Google Drive\TRABAJO\MONITOREO\metro_monitoreo\Monitoreo Carteles\Monitoreo Carteles\obj\Debug\Monitoreo_Carteles.Form1.resources

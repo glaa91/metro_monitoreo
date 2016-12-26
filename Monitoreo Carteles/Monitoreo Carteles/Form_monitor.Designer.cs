@@ -30,13 +30,13 @@
         {
             this.tabControl_monitor = new System.Windows.Forms.TabControl();
             this.tabPage_monitoreo = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel_monitor = new System.Windows.Forms.TableLayoutPanel();
             this.tabPage_debug = new System.Windows.Forms.TabPage();
             this.richTextBox_debug = new System.Windows.Forms.RichTextBox();
             this.tabPage_configuracion = new System.Windows.Forms.TabPage();
             this.button_configuracion_guardar = new System.Windows.Forms.Button();
             this.numericUpDown_configuracion_refresh = new System.Windows.Forms.NumericUpDown();
             this.label_configuracion_refresh = new System.Windows.Forms.Label();
+            this.tableLayoutPanel_monitor = new System.Windows.Forms.TableLayoutPanel();
             this.tabControl_monitor.SuspendLayout();
             this.tabPage_monitoreo.SuspendLayout();
             this.tabPage_debug.SuspendLayout();
@@ -53,7 +53,7 @@
             this.tabControl_monitor.Location = new System.Drawing.Point(0, 0);
             this.tabControl_monitor.Name = "tabControl_monitor";
             this.tabControl_monitor.SelectedIndex = 0;
-            this.tabControl_monitor.Size = new System.Drawing.Size(1202, 664);
+            this.tabControl_monitor.Size = new System.Drawing.Size(974, 520);
             this.tabControl_monitor.TabIndex = 0;
             // 
             // tabPage_monitoreo
@@ -63,32 +63,11 @@
             this.tabPage_monitoreo.Location = new System.Drawing.Point(4, 29);
             this.tabPage_monitoreo.Name = "tabPage_monitoreo";
             this.tabPage_monitoreo.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_monitoreo.Size = new System.Drawing.Size(1194, 631);
+            this.tabPage_monitoreo.Size = new System.Drawing.Size(966, 487);
             this.tabPage_monitoreo.TabIndex = 0;
             this.tabPage_monitoreo.Text = "MONITOR";
             this.tabPage_monitoreo.UseVisualStyleBackColor = true;
             this.tabPage_monitoreo.Click += new System.EventHandler(this.tabPage_monitoreo_Click);
-            // 
-            // tableLayoutPanel_monitor
-            // 
-            this.tableLayoutPanel_monitor.AutoScroll = true;
-            this.tableLayoutPanel_monitor.AutoSize = true;
-            this.tableLayoutPanel_monitor.ColumnCount = 6;
-            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel_monitor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel_monitor.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.AddColumns;
-            this.tableLayoutPanel_monitor.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel_monitor.Name = "tableLayoutPanel_monitor";
-            this.tableLayoutPanel_monitor.RowCount = 1;
-            this.tableLayoutPanel_monitor.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel_monitor.Size = new System.Drawing.Size(1188, 625);
-            this.tableLayoutPanel_monitor.TabIndex = 0;
-            this.tableLayoutPanel_monitor.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // tabPage_debug
             // 
@@ -170,11 +149,31 @@
             this.label_configuracion_refresh.Text = "Tiempo de actualizacion: (60 seg.)";
             this.label_configuracion_refresh.Click += new System.EventHandler(this.label_configuracion_refresh_Click);
             // 
+            // tableLayoutPanel_monitor
+            // 
+            this.tableLayoutPanel_monitor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel_monitor.ColumnCount = 6;
+            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel_monitor.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel_monitor.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel_monitor.Name = "tableLayoutPanel_monitor";
+            this.tableLayoutPanel_monitor.RowCount = 1;
+            this.tableLayoutPanel_monitor.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel_monitor.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel_monitor.Size = new System.Drawing.Size(563, 175);
+            this.tableLayoutPanel_monitor.TabIndex = 0;
+            // 
             // Form_monitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1202, 664);
+            this.ClientSize = new System.Drawing.Size(974, 520);
             this.Controls.Add(this.tabControl_monitor);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form_monitor";
@@ -183,7 +182,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl_monitor.ResumeLayout(false);
             this.tabPage_monitoreo.ResumeLayout(false);
-            this.tabPage_monitoreo.PerformLayout();
             this.tabPage_debug.ResumeLayout(false);
             this.tabPage_configuracion.ResumeLayout(false);
             this.tabPage_configuracion.PerformLayout();

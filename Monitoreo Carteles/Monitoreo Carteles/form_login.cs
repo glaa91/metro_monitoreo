@@ -34,6 +34,21 @@ namespace Monitoreo_Carteles
         private static List<Cartel> carteles_l = new List<Cartel>();
         public static List<Estacion> estaciones_l = new List<Estacion>();
 
+        //  nombre de las estaciones en orden sin repetir
+        public static List<string> nombreEstacionesA_l = new List<string>();
+        public static List<string> nombreEstacionesB_l = new List<string>();
+        public static List<string> nombreEstacionesC_l = new List<string>();
+        public static List<string> nombreEstacionesD_l = new List<string>();
+        public static List<string> nombreEstacionesE_l = new List<string>();
+        public static List<string> nombreEstacionesH_l = new List<string>();
+        // cantidad de carteles por estacion - esta en orden vector con nombreEstacionesX_l
+        public static List<int> cartelesPorEstacionA_l = new List<int>();
+        public static List<int> cartelesPorEstacionB_l = new List<int>();
+        public static List<int> cartelesPorEstacionC_l = new List<int>();
+        public static List<int> cartelesPorEstacionD_l = new List<int>();
+        public static List<int> cartelesPorEstacionE_l = new List<int>();
+        public static List<int> cartelesPorEstacionH_l = new List<int>();
+
         public static Boolean coneccionBaseDatos_b = false, monitor_b = false;
         public static int timeRefresh_i = 60000;
 
@@ -291,6 +306,12 @@ namespace Monitoreo_Carteles
         {
 
         }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
         private void checkUserPass()
         {
             bool usuario_b = false;
